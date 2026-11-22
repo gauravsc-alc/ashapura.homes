@@ -1,566 +1,1930 @@
 [
-    {
-        "id":  "mujeet-yelanka",
-        "source_folder":  "mujeet yelanka",
-        "title":  "Project 6",
-        "slug":  "project-6",
-        "order":  6,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/light-pastel-a7e0693f7dcc.jpg",
-        "image_count":  6,
-        "rooms":  [
-                      {
-                          "id":  "kids-room-bae858b2440d",
-                          "title":  "Kids Bedroom",
-                          "source_folder":  "kids room",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/bed-other-side-079984327b45.jpg",
-                                             "title":  "Bed Other Side ",
-                                             "source":  "kids room/bed other side .png",
-                                             "width":  1920,
-                                             "height":  1920
-                                         },
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/light-pastel-a7e0693f7dcc.jpg",
-                                             "title":  "Light Pastel",
-                                             "source":  "kids room/light pastel.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         },
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/little-dark-bunk-bed-901d1341da03.jpg",
-                                             "title":  "Little Dark Bunk Bed",
-                                             "source":  "kids room/little dark bunk bed.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         },
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/mirror-side-204110ca9d73.jpg",
-                                             "title":  "Mirror Side",
-                                             "source":  "kids room/MIRROR SIDE.png",
-                                             "width":  1634,
-                                             "height":  1920
-                                         },
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/wadrobe-dark-color-6d608284e133.jpg",
-                                             "title":  "Wadrobe Dark Color",
-                                             "source":  "kids room/wadrobe dark color.png",
-                                             "width":  1920,
-                                             "height":  1537
-                                         },
-                                         {
-                                             "image":  "images/projects/mujeet-yelanka/kids-room-bae858b2440d/window-side-stiudy-table-a3a8610614df.jpg",
-                                             "title":  "Window Side Stiudy Table",
-                                             "source":  "kids room/WINDOW SIDE STIUDY TABLE.png",
-                                             "width":  1898,
-                                             "height":  1920
-                                         }
-                                     ]
-                      }
-                  ]
-    },
-    {
-        "id":  "project-1",
-        "source_folder":  "project 1",
-        "title":  "Project 1",
-        "order":  1,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "images/projects/project-1/overview/living-hall-7f1de78db546.jpg",
-        "image_count":  9,
-        "rooms":  [
-                      {
-                          "id":  "bedroom-2-110379fb0b70",
-                          "title":  "Bedroom 2",
-                          "source_folder":  "bedroom 2",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-1/bedroom-2-110379fb0b70/2-14437059f053.jpg",
-                                             "title":  "Bedroom 2 - View 1",
-                                             "source":  "bedroom 2/2.png",
-                                             "width":  1920,
-                                             "height":  1920
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/bedroom-2-110379fb0b70/bed-side-2-54f325f08ad1.jpg",
-                                             "title":  "Bed Side (2)",
-                                             "source":  "bedroom 2/BED SIDE (2).png",
-                                             "width":  1920,
-                                             "height":  1920
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "overview",
-                          "title":  "Project Overview",
-                          "source_folder":  "",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-1/overview/kids-room-192106529b9b.jpg",
-                                             "title":  "Kids Room",
-                                             "source":  "kids room.png",
-                                             "width":  1920,
-                                             "height":  1920
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/overview/living-hall-7f1de78db546.jpg",
-                                             "title":  "Living Hall",
-                                             "source":  "living hall.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kitchen-3171d89ad005",
-                          "title":  "Kitchen",
-                          "source_folder":  "kitchen",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-1/kitchen-3171d89ad005/1-crockry-6d92eca3419e.jpg",
-                                             "title":  "1 Crockry",
-                                             "source":  "kitchen/1 CROCKRY.png",
-                                             "width":  1920,
-                                             "height":  1527
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/kitchen-3171d89ad005/3-950ccbd77c20.jpg",
-                                             "title":  "Kitchen - View 2",
-                                             "source":  "kitchen/3.png",
-                                             "width":  1920,
-                                             "height":  1399
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/kitchen-3171d89ad005/breakfast-slab-2afffdc8638a.jpg",
-                                             "title":  "Breakfast Slab",
-                                             "source":  "kitchen/breakfast slab.png",
-                                             "width":  1920,
-                                             "height":  1506
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/kitchen-3171d89ad005/lichen-hob-side-85f0c2a96167.jpg",
-                                             "title":  "Lichen Hob Side",
-                                             "source":  "kitchen/lichen hob side.png",
-                                             "width":  1920,
-                                             "height":  1722
-                                         },
-                                         {
-                                             "image":  "images/projects/project-1/kitchen-3171d89ad005/utility-8d3c53328950.jpg",
-                                             "title":  "Utility",
-                                             "source":  "kitchen/utility.png",
-                                             "width":  1920,
-                                             "height":  1446
-                                         }
-                                     ]
-                      }
-                  ]
-    },
-    {
-        "id":  "project-2",
-        "source_folder":  "project 2",
-        "title":  "Project 2",
-        "order":  2,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "images/projects/project-2/tv-unt-74123ac461cc/2-full-966c02b41cd1.jpg",
-        "image_count":  14,
-        "rooms":  [
-                      {
-                          "id":  "kids-room-e423bd0dc2b5",
-                          "title":  "Kids Bedroom",
-                          "source_folder":  "KIDS room",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-2/kids-room-e423bd0dc2b5/1-617569ee4263.jpg",
-                                             "title":  "Kids Bedroom - View 1",
-                                             "source":  "KIDS room/1.png",
-                                             "width":  1500,
-                                             "height":  1125
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/kids-room-e423bd0dc2b5/2-60ed6df1478d.jpg",
-                                             "title":  "Kids Bedroom - View 2",
-                                             "source":  "KIDS room/2.png",
-                                             "width":  1500,
-                                             "height":  1125
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/kids-room-e423bd0dc2b5/3-a6d107bcab9f.jpg",
-                                             "title":  "Kids Bedroom - View 3",
-                                             "source":  "KIDS room/3.png",
-                                             "width":  1500,
-                                             "height":  1125
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kitchen-3171d89ad005",
-                          "title":  "Kitchen",
-                          "source_folder":  "kitchen",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-2/kitchen-3171d89ad005/2-ef7f678d896a.jpg",
-                                             "title":  "Kitchen - View 1",
-                                             "source":  "kitchen/2.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/kitchen-3171d89ad005/final-render-other-sidde-35bf05841900.jpg",
-                                             "title":  "Final Render Other Sidde",
-                                             "source":  "kitchen/final render other sidde.jpg",
-                                             "width":  1920,
-                                             "height":  1441
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/kitchen-3171d89ad005/kichen-temple-side-570f8e62a85f.jpg",
-                                             "title":  "Kichen  Temple Side",
-                                             "source":  "kitchen/kichen  temple side.jpg",
-                                             "width":  1920,
-                                             "height":  1440
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "mbr-f5662649c772",
-                          "title":  "Master Bedroom",
-                          "source_folder":  "mbr",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-2/mbr-f5662649c772/brother-room-fiinal-1-8ecd65335b07.jpg",
-                                             "title":  "Brother Room Fiinal 1",
-                                             "source":  "mbr/BROTHER ROOM FIINAL 1.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/mbr-f5662649c772/final-wadrobe-2-bro-be9e87da9235.jpg",
-                                             "title":  "Final Wadrobe 2 Bro",
-                                             "source":  "mbr/FINAL WADROBE 2 BRO.png",
-                                             "width":  1920,
-                                             "height":  1440
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/mbr-f5662649c772/final-wadrobr-22-9e5c6537d3a8.jpg",
-                                             "title":  "Final Wadrobr 22",
-                                             "source":  "mbr/FINAL WADROBR 22.png",
-                                             "width":  1920,
-                                             "height":  1072
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "mbr3-582226cf728d",
-                          "title":  "Bedroom 3",
-                          "source_folder":  "mbr3",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-2/mbr3-582226cf728d/final-2-fd6382412e88.jpg",
-                                             "title":  "Final 2",
-                                             "source":  "mbr3/final 2.png",
-                                             "width":  1920,
-                                             "height":  1072
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/mbr3-582226cf728d/final-uncle-png-4ce11b65bf0c.jpg",
-                                             "title":  "Final Uncle Png",
-                                             "source":  "mbr3/final uncle png.png",
-                                             "width":  1920,
-                                             "height":  1434
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/mbr3-582226cf728d/wadrobe-new-final-aae5bd3d0124.jpg",
-                                             "title":  "Wadrobe New Final",
-                                             "source":  "mbr3/WADROBE NEW FINAL.png",
-                                             "width":  1920,
-                                             "height":  1434
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "tv-unt-74123ac461cc",
-                          "title":  "TV Unit",
-                          "source_folder":  "tv unt",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-2/tv-unt-74123ac461cc/2-full-966c02b41cd1.jpg",
-                                             "title":  "2 Full",
-                                             "source":  "tv unt/2 FULL.jpeg",
-                                             "width":  1920,
-                                             "height":  1079
-                                         },
-                                         {
-                                             "image":  "images/projects/project-2/tv-unt-74123ac461cc/side-wall-486d29f91e64.jpg",
-                                             "title":  "Side Wall",
-                                             "source":  "tv unt/SIDE WALL.png",
-                                             "width":  1920,
-                                             "height":  1105
-                                         }
-                                     ]
-                      }
-                  ]
-    },
-    {
-        "id":  "project-3",
-        "source_folder":  "project 3",
-        "title":  "Project 3",
-        "order":  3,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "images/projects/project-3/hall-3cbaeb57c640/living-hall-long-view-52ee9767f715.jpg",
-        "image_count":  11,
-        "rooms":  [
-                      {
-                          "id":  "hall-3cbaeb57c640",
-                          "title":  "Living \u0026 Dining",
-                          "source_folder":  "hall",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-3/hall-3cbaeb57c640/dining-view-4ea1df92766b.jpg",
-                                             "title":  "Dining View",
-                                             "source":  "hall/dining view.jpg",
-                                             "width":  1500,
-                                             "height":  1124
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/hall-3cbaeb57c640/living-hall-long-view-52ee9767f715.jpg",
-                                             "title":  "Living Hall Long View",
-                                             "source":  "hall/living hall long view.jpg",
-                                             "width":  1368,
-                                             "height":  768
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/hall-3cbaeb57c640/living-hall-side-view-8280bf124331.jpg",
-                                             "title":  "Living Hall Side View",
-                                             "source":  "hall/living hall side view.jpg",
-                                             "width":  1021,
-                                             "height":  762
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/hall-3cbaeb57c640/unnamed-1-be2f37234789.jpg",
-                                             "title":  "Living \u0026 Dining - View 4",
-                                             "source":  "hall/unnamed (1).jpg",
-                                             "width":  1368,
-                                             "height":  768
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kids-room-bae858b2440d",
-                          "title":  "Kids Bedroom",
-                          "source_folder":  "kids room",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-3/kids-room-bae858b2440d/kids-bedroom-pastel-blue-ceead7f97f3d.jpg",
-                                             "title":  "Kids Bedroom Pastel Blue",
-                                             "source":  "kids room/kids bedroom pastel blue.jpg",
-                                             "width":  1024,
-                                             "height":  1024
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/kids-room-bae858b2440d/kids-room-new-50454b2ce90e.jpg",
-                                             "title":  "Kids Room New",
-                                             "source":  "kids room/KIDS ROOM NEW.jpg",
-                                             "width":  1152,
-                                             "height":  920
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/kids-room-bae858b2440d/kids-room-side-view-9104ba71c702.jpg",
-                                             "title":  "Kids Room Side View",
-                                             "source":  "kids room/kids room side view.jpg",
-                                             "width":  1024,
-                                             "height":  1024
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/kids-room-bae858b2440d/kids-room-themed-2-d7359c9ef40f.jpg",
-                                             "title":  "Kids Room Themed 2",
-                                             "source":  "kids room/kids room themed 2.jpg",
-                                             "width":  1152,
-                                             "height":  921
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kitchen-3171d89ad005",
-                          "title":  "Kitchen",
-                          "source_folder":  "kitchen",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-3/kitchen-3171d89ad005/unnamed-1b1aab8ba48b.jpg",
-                                             "title":  "Kitchen - View 1",
-                                             "source":  "kitchen/unnamed.jpg",
-                                             "width":  1408,
-                                             "height":  768
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "m-bedroom-d63a07248f8b",
-                          "title":  "Master Bedroom",
-                          "source_folder":  "m bedroom",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-3/m-bedroom-d63a07248f8b/master-bedroom-study-table-view-294046adf742.jpg",
-                                             "title":  "Master Bedroom Study Table View",
-                                             "source":  "m bedroom/master bedroom study table view.jpg",
-                                             "width":  1024,
-                                             "height":  1024
-                                         },
-                                         {
-                                             "image":  "images/projects/project-3/m-bedroom-d63a07248f8b/masterbedroom-plane-wadrobe-201262e78b13.jpg",
-                                             "title":  "Masterbedroom Plane Wadrobe",
-                                             "source":  "m bedroom/masterbedroom plane wadrobe.jpg",
-                                             "width":  1063,
-                                             "height":  921
-                                         }
-                                     ]
-                      }
-                  ]
-    },
-    {
-        "id":  "project-4",
-        "source_folder":  "project 4",
-        "title":  "Project 4",
-        "order":  4,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "images/projects/project-4/hall-3cbaeb57c640/hall-9562de0c0a23.jpg",
-        "image_count":  13,
-        "rooms":  [
-                      {
-                          "id":  "hall-3cbaeb57c640",
-                          "title":  "Living \u0026 Dining",
-                          "source_folder":  "hall",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-4/hall-3cbaeb57c640/hall-9562de0c0a23.jpg",
-                                             "title":  "Hall",
-                                             "source":  "hall/hall.jpg",
-                                             "width":  1365,
-                                             "height":  768
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/hall-3cbaeb57c640/tv-new-f-a17005b4b33a.jpg",
-                                             "title":  "Tv New F",
-                                             "source":  "hall/tv new f.jpg",
-                                             "width":  1024,
-                                             "height":  1024
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kids-bedromm-316e3a448e38",
-                          "title":  "Kids Bedroom",
-                          "source_folder":  "kids bedromm",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-4/kids-bedromm-316e3a448e38/1-c3ae7ce6af38.jpg",
-                                             "title":  "Kids Bedroom - View 1",
-                                             "source":  "kids bedromm/1.png",
-                                             "width":  907,
-                                             "height":  912
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kids-bedromm-316e3a448e38/2-526621f55fd1.jpg",
-                                             "title":  "Kids Bedroom - View 2",
-                                             "source":  "kids bedromm/2.png",
-                                             "width":  907,
-                                             "height":  907
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kids-bedromm-316e3a448e38/3-15ccb904cd0e.jpg",
-                                             "title":  "Kids Bedroom - View 3",
-                                             "source":  "kids bedromm/3.png",
-                                             "width":  896,
-                                             "height":  902
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kids-bedromm-316e3a448e38/4-30c4ac355aa7.jpg",
-                                             "title":  "Kids Bedroom - View 4",
-                                             "source":  "kids bedromm/4.png",
-                                             "width":  905,
-                                             "height":  893
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "kitchen-3171d89ad005",
-                          "title":  "Kitchen",
-                          "source_folder":  "kitchen",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-4/kitchen-3171d89ad005/kichen-new-g10-l-e8a3c52a519f.jpg",
-                                             "title":  "Kichen New G10 L",
-                                             "source":  "kitchen/kichen new g10 l.jpg",
-                                             "width":  1500,
-                                             "height":  1500
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kitchen-3171d89ad005/kitchen-l-adbf07a8077d.jpg",
-                                             "title":  "Kitchen L",
-                                             "source":  "kitchen/kitchen L.jpg",
-                                             "width":  1500,
-                                             "height":  1500
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kitchen-3171d89ad005/kitchen-03223e3a47ed.jpg",
-                                             "title":  "Kitchen",
-                                             "source":  "kitchen/kitchen.jpg",
-                                             "width":  1368,
-                                             "height":  768
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kitchen-3171d89ad005/litchen-full-5bdfb6ca609f.jpg",
-                                             "title":  "Litchen Full",
-                                             "source":  "kitchen/LITCHEN FULL.jpg",
-                                             "width":  1920,
-                                             "height":  1080
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/kitchen-3171d89ad005/unnamed-1b1aab8ba48b.jpg",
-                                             "title":  "Kitchen - View 5",
-                                             "source":  "kitchen/unnamed.jpg",
-                                             "width":  1024,
-                                             "height":  1024
-                                         }
-                                     ]
-                      },
-                      {
-                          "id":  "mbr-f5662649c772",
-                          "title":  "Master Bedroom",
-                          "source_folder":  "mbr",
-                          "images":  [
-                                         {
-                                             "image":  "images/projects/project-4/mbr-f5662649c772/m-b-2-436585998970.jpg",
-                                             "title":  "M B 2",
-                                             "source":  "mbr/m.b.2.jpg",
-                                             "width":  1152,
-                                             "height":  921
-                                         },
-                                         {
-                                             "image":  "images/projects/project-4/mbr-f5662649c772/unnamed-mirror2-2406c024ed24.jpg",
-                                             "title":  "Master Bedroom - View 2",
-                                             "source":  "mbr/unnamed MIRROR2.jpg",
-                                             "width":  1195,
-                                             "height":  896
-                                         }
-                                     ]
-                      }
-                  ]
-    },
-    {
-        "id":  "project-5",
-        "source_folder":  "project 5",
-        "title":  "Project 5",
-        "order":  5,
-        "description":  "Explore the design renders, organized by space. Select any image for a closer look.",
-        "enabled":  true,
-        "cover":  "",
-        "image_count":  0,
-        "rooms":  [
-
-                  ]
-    }
+  {
+    "id": "project-1",
+    "source_folder": "project 1",
+    "title": "Project 1",
+    "order": 1,
+    "description": "Explore the design renders, organized by space. Select any image for a closer look.",
+    "enabled": true,
+    "cover": "images/projects/project-1/overview/living-hall-7f1de78db546.jpg",
+    "image_count": 9,
+    "rooms": [
+      {
+        "id": "bedroom-2-110379fb0b70",
+        "title": "Bedroom 2",
+        "source_folder": "bedroom 2",
+        "images": [
+          {
+            "image": "images/projects/project-1/bedroom-2-110379fb0b70/2-14437059f053.jpg",
+            "title": "Bedroom 2 — View 1",
+            "source": "bedroom 2/2.png",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/project-1/bedroom-2-110379fb0b70/bed-side-2-54f325f08ad1.jpg",
+            "title": "Bed Side (2)",
+            "source": "bedroom 2/BED SIDE (2).png",
+            "width": 1920,
+            "height": 1920
+          }
+        ]
+      },
+      {
+        "id": "overview",
+        "title": "Project Overview",
+        "source_folder": "",
+        "images": [
+          {
+            "image": "images/projects/project-1/overview/kids-room-192106529b9b.jpg",
+            "title": "Kids Room",
+            "source": "kids room.png",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/project-1/overview/living-hall-7f1de78db546.jpg",
+            "title": "Living Hall",
+            "source": "living hall.png",
+            "width": 1920,
+            "height": 1440
+          }
+        ]
+      },
+      {
+        "id": "kitchen-3171d89ad005",
+        "title": "Kitchen",
+        "source_folder": "kitchen",
+        "images": [
+          {
+            "image": "images/projects/project-1/kitchen-3171d89ad005/1-crockry-6d92eca3419e.jpg",
+            "title": "1 Crockry",
+            "source": "kitchen/1 CROCKRY.png",
+            "width": 1920,
+            "height": 1527
+          },
+          {
+            "image": "images/projects/project-1/kitchen-3171d89ad005/3-950ccbd77c20.jpg",
+            "title": "Kitchen — View 2",
+            "source": "kitchen/3.png",
+            "width": 1920,
+            "height": 1399
+          },
+          {
+            "image": "images/projects/project-1/kitchen-3171d89ad005/breakfast-slab-2afffdc8638a.jpg",
+            "title": "Breakfast Slab",
+            "source": "kitchen/breakfast slab.png",
+            "width": 1920,
+            "height": 1506
+          },
+          {
+            "image": "images/projects/project-1/kitchen-3171d89ad005/lichen-hob-side-85f0c2a96167.jpg",
+            "title": "Lichen Hob Side",
+            "source": "kitchen/lichen hob side.png",
+            "width": 1920,
+            "height": 1722
+          },
+          {
+            "image": "images/projects/project-1/kitchen-3171d89ad005/utility-8d3c53328950.jpg",
+            "title": "Utility",
+            "source": "kitchen/utility.png",
+            "width": 1920,
+            "height": 1446
+          }
+        ]
+      }
+    ],
+    "slug": "project-1"
+  },
+  {
+    "id": "project-2",
+    "source_folder": "project 2",
+    "title": "Project 2",
+    "order": 2,
+    "description": "Explore the design renders, organized by space. Select any image for a closer look.",
+    "enabled": true,
+    "cover": "images/projects/project-2/tv-unt-74123ac461cc/2-full-966c02b41cd1.jpg",
+    "image_count": 14,
+    "rooms": [
+      {
+        "id": "kids-room-e423bd0dc2b5",
+        "title": "Kids Bedroom",
+        "source_folder": "KIDS room",
+        "images": [
+          {
+            "image": "images/projects/project-2/kids-room-e423bd0dc2b5/1-617569ee4263.jpg",
+            "title": "Kids Bedroom — View 1",
+            "source": "KIDS room/1.png",
+            "width": 1500,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/project-2/kids-room-e423bd0dc2b5/2-60ed6df1478d.jpg",
+            "title": "Kids Bedroom — View 2",
+            "source": "KIDS room/2.png",
+            "width": 1500,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/project-2/kids-room-e423bd0dc2b5/3-a6d107bcab9f.jpg",
+            "title": "Kids Bedroom — View 3",
+            "source": "KIDS room/3.png",
+            "width": 1500,
+            "height": 1125
+          }
+        ]
+      },
+      {
+        "id": "kitchen-3171d89ad005",
+        "title": "Kitchen",
+        "source_folder": "kitchen",
+        "images": [
+          {
+            "image": "images/projects/project-2/kitchen-3171d89ad005/2-ef7f678d896a.jpg",
+            "title": "Kitchen — View 1",
+            "source": "kitchen/2.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/project-2/kitchen-3171d89ad005/final-render-other-sidde-35bf05841900.jpg",
+            "title": "Final Render Other Sidde",
+            "source": "kitchen/final render other sidde.jpg",
+            "width": 1920,
+            "height": 1441
+          },
+          {
+            "image": "images/projects/project-2/kitchen-3171d89ad005/kichen-temple-side-570f8e62a85f.jpg",
+            "title": "Kichen Temple Side",
+            "source": "kitchen/kichen  temple side.jpg",
+            "width": 1920,
+            "height": 1440
+          }
+        ]
+      },
+      {
+        "id": "mbr-f5662649c772",
+        "title": "Master Bedroom",
+        "source_folder": "mbr",
+        "images": [
+          {
+            "image": "images/projects/project-2/mbr-f5662649c772/brother-room-fiinal-1-8ecd65335b07.jpg",
+            "title": "Brother Room Fiinal 1",
+            "source": "mbr/BROTHER ROOM FIINAL 1.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/project-2/mbr-f5662649c772/final-wadrobe-2-bro-be9e87da9235.jpg",
+            "title": "Final Wadrobe 2 Bro",
+            "source": "mbr/FINAL WADROBE 2 BRO.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/project-2/mbr-f5662649c772/final-wadrobr-22-9e5c6537d3a8.jpg",
+            "title": "Final Wadrobr 22",
+            "source": "mbr/FINAL WADROBR 22.png",
+            "width": 1920,
+            "height": 1072
+          }
+        ]
+      },
+      {
+        "id": "mbr3-582226cf728d",
+        "title": "Bedroom 3",
+        "source_folder": "mbr3",
+        "images": [
+          {
+            "image": "images/projects/project-2/mbr3-582226cf728d/final-2-fd6382412e88.jpg",
+            "title": "Final 2",
+            "source": "mbr3/final 2.png",
+            "width": 1920,
+            "height": 1072
+          },
+          {
+            "image": "images/projects/project-2/mbr3-582226cf728d/final-uncle-png-4ce11b65bf0c.jpg",
+            "title": "Final Uncle Png",
+            "source": "mbr3/final uncle png.png",
+            "width": 1920,
+            "height": 1434
+          },
+          {
+            "image": "images/projects/project-2/mbr3-582226cf728d/wadrobe-new-final-aae5bd3d0124.jpg",
+            "title": "Wadrobe New Final",
+            "source": "mbr3/WADROBE NEW FINAL.png",
+            "width": 1920,
+            "height": 1434
+          }
+        ]
+      },
+      {
+        "id": "tv-unt-74123ac461cc",
+        "title": "TV Unit",
+        "source_folder": "tv unt",
+        "images": [
+          {
+            "image": "images/projects/project-2/tv-unt-74123ac461cc/2-full-966c02b41cd1.jpg",
+            "title": "2 Full",
+            "source": "tv unt/2 FULL.jpeg",
+            "width": 1920,
+            "height": 1079
+          },
+          {
+            "image": "images/projects/project-2/tv-unt-74123ac461cc/side-wall-486d29f91e64.jpg",
+            "title": "Side Wall",
+            "source": "tv unt/SIDE WALL.png",
+            "width": 1920,
+            "height": 1105
+          }
+        ]
+      }
+    ],
+    "slug": "project-2"
+  },
+  {
+    "id": "project-3",
+    "source_folder": "project 3",
+    "title": "Project 3",
+    "order": 3,
+    "description": "Explore the design renders, organized by space. Select any image for a closer look.",
+    "enabled": true,
+    "cover": "images/projects/project-3/hall-3cbaeb57c640/living-hall-long-view-52ee9767f715.jpg",
+    "image_count": 11,
+    "rooms": [
+      {
+        "id": "hall-3cbaeb57c640",
+        "title": "Living & Dining",
+        "source_folder": "hall",
+        "images": [
+          {
+            "image": "images/projects/project-3/hall-3cbaeb57c640/dining-view-4ea1df92766b.jpg",
+            "title": "Dining View",
+            "source": "hall/dining view.jpg",
+            "width": 1500,
+            "height": 1124
+          },
+          {
+            "image": "images/projects/project-3/hall-3cbaeb57c640/living-hall-long-view-52ee9767f715.jpg",
+            "title": "Living Hall Long View",
+            "source": "hall/living hall long view.jpg",
+            "width": 1368,
+            "height": 768
+          },
+          {
+            "image": "images/projects/project-3/hall-3cbaeb57c640/living-hall-side-view-8280bf124331.jpg",
+            "title": "Living Hall Side View",
+            "source": "hall/living hall side view.jpg",
+            "width": 1021,
+            "height": 762
+          },
+          {
+            "image": "images/projects/project-3/hall-3cbaeb57c640/unnamed-1-be2f37234789.jpg",
+            "title": "Living & Dining - View 4",
+            "source": "hall/unnamed (1).jpg",
+            "width": 1368,
+            "height": 768
+          }
+        ]
+      },
+      {
+        "id": "kids-room-bae858b2440d",
+        "title": "Kids Bedroom",
+        "source_folder": "kids room",
+        "images": [
+          {
+            "image": "images/projects/project-3/kids-room-bae858b2440d/kids-bedroom-pastel-blue-ceead7f97f3d.jpg",
+            "title": "Kids Bedroom Pastel Blue",
+            "source": "kids room/kids bedroom pastel blue.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "image": "images/projects/project-3/kids-room-bae858b2440d/kids-room-new-50454b2ce90e.jpg",
+            "title": "Kids Room New",
+            "source": "kids room/KIDS ROOM NEW.jpg",
+            "width": 1152,
+            "height": 920
+          },
+          {
+            "image": "images/projects/project-3/kids-room-bae858b2440d/kids-room-side-view-9104ba71c702.jpg",
+            "title": "Kids Room Side View",
+            "source": "kids room/kids room side view.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "image": "images/projects/project-3/kids-room-bae858b2440d/kids-room-themed-2-d7359c9ef40f.jpg",
+            "title": "Kids Room Themed 2",
+            "source": "kids room/kids room themed 2.jpg",
+            "width": 1152,
+            "height": 921
+          }
+        ]
+      },
+      {
+        "id": "kitchen-3171d89ad005",
+        "title": "Kitchen",
+        "source_folder": "kitchen",
+        "images": [
+          {
+            "image": "images/projects/project-3/kitchen-3171d89ad005/unnamed-1b1aab8ba48b.jpg",
+            "title": "Kitchen - View 1",
+            "source": "kitchen/unnamed.jpg",
+            "width": 1408,
+            "height": 768
+          }
+        ]
+      },
+      {
+        "id": "m-bedroom-d63a07248f8b",
+        "title": "Master Bedroom",
+        "source_folder": "m bedroom",
+        "images": [
+          {
+            "image": "images/projects/project-3/m-bedroom-d63a07248f8b/master-bedroom-study-table-view-294046adf742.jpg",
+            "title": "Master Bedroom Study Table View",
+            "source": "m bedroom/master bedroom study table view.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "image": "images/projects/project-3/m-bedroom-d63a07248f8b/masterbedroom-plane-wadrobe-201262e78b13.jpg",
+            "title": "Masterbedroom Plane Wadrobe",
+            "source": "m bedroom/masterbedroom plane wadrobe.jpg",
+            "width": 1063,
+            "height": 921
+          }
+        ]
+      }
+    ],
+    "slug": "project-3"
+  },
+  {
+    "id": "project-4",
+    "source_folder": "project 4",
+    "title": "Project 4",
+    "order": 4,
+    "description": "Explore the design renders, organized by space. Select any image for a closer look.",
+    "enabled": true,
+    "cover": "images/projects/project-4/hall-3cbaeb57c640/hall-9562de0c0a23.jpg",
+    "image_count": 13,
+    "rooms": [
+      {
+        "id": "hall-3cbaeb57c640",
+        "title": "Living & Dining",
+        "source_folder": "hall",
+        "images": [
+          {
+            "image": "images/projects/project-4/hall-3cbaeb57c640/hall-9562de0c0a23.jpg",
+            "title": "Hall",
+            "source": "hall/hall.jpg",
+            "width": 1365,
+            "height": 768
+          },
+          {
+            "image": "images/projects/project-4/hall-3cbaeb57c640/tv-new-f-a17005b4b33a.jpg",
+            "title": "TV New F",
+            "source": "hall/tv new f.jpg",
+            "width": 1024,
+            "height": 1024
+          }
+        ]
+      },
+      {
+        "id": "kids-bedromm-316e3a448e38",
+        "title": "Kids Bedroom",
+        "source_folder": "kids bedromm",
+        "images": [
+          {
+            "image": "images/projects/project-4/kids-bedromm-316e3a448e38/1-c3ae7ce6af38.jpg",
+            "title": "Kids Bedroom — View 1",
+            "source": "kids bedromm/1.png",
+            "width": 907,
+            "height": 912
+          },
+          {
+            "image": "images/projects/project-4/kids-bedromm-316e3a448e38/2-526621f55fd1.jpg",
+            "title": "Kids Bedroom — View 2",
+            "source": "kids bedromm/2.png",
+            "width": 907,
+            "height": 907
+          },
+          {
+            "image": "images/projects/project-4/kids-bedromm-316e3a448e38/3-15ccb904cd0e.jpg",
+            "title": "Kids Bedroom — View 3",
+            "source": "kids bedromm/3.png",
+            "width": 896,
+            "height": 902
+          },
+          {
+            "image": "images/projects/project-4/kids-bedromm-316e3a448e38/4-30c4ac355aa7.jpg",
+            "title": "Kids Bedroom — View 4",
+            "source": "kids bedromm/4.png",
+            "width": 905,
+            "height": 893
+          }
+        ]
+      },
+      {
+        "id": "kitchen-3171d89ad005",
+        "title": "Kitchen",
+        "source_folder": "kitchen",
+        "images": [
+          {
+            "image": "images/projects/project-4/kitchen-3171d89ad005/kichen-new-g10-l-e8a3c52a519f.jpg",
+            "title": "Kichen New G10 L",
+            "source": "kitchen/kichen new g10 l.jpg",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "image": "images/projects/project-4/kitchen-3171d89ad005/kitchen-l-adbf07a8077d.jpg",
+            "title": "Kitchen L",
+            "source": "kitchen/kitchen L.jpg",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "image": "images/projects/project-4/kitchen-3171d89ad005/kitchen-03223e3a47ed.jpg",
+            "title": "Kitchen",
+            "source": "kitchen/kitchen.jpg",
+            "width": 1368,
+            "height": 768
+          },
+          {
+            "image": "images/projects/project-4/kitchen-3171d89ad005/litchen-full-5bdfb6ca609f.jpg",
+            "title": "Litchen Full",
+            "source": "kitchen/LITCHEN FULL.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/project-4/kitchen-3171d89ad005/unnamed-1b1aab8ba48b.jpg",
+            "title": "Kitchen - View 5",
+            "source": "kitchen/unnamed.jpg",
+            "width": 1024,
+            "height": 1024
+          }
+        ]
+      },
+      {
+        "id": "mbr-f5662649c772",
+        "title": "Master Bedroom",
+        "source_folder": "mbr",
+        "images": [
+          {
+            "image": "images/projects/project-4/mbr-f5662649c772/m-b-2-436585998970.jpg",
+            "title": "M B 2",
+            "source": "mbr/m.b.2.jpg",
+            "width": 1152,
+            "height": 921
+          },
+          {
+            "image": "images/projects/project-4/mbr-f5662649c772/unnamed-mirror2-2406c024ed24.jpg",
+            "title": "Master Bedroom - View 2",
+            "source": "mbr/unnamed MIRROR2.jpg",
+            "width": 1195,
+            "height": 896
+          }
+        ]
+      }
+    ],
+    "slug": "project-4"
+  },
+  {
+    "id": "project-5",
+    "source_folder": "project 5",
+    "title": "Project 5",
+    "order": 5,
+    "description": "This project is coming soon. Enquire for details.",
+    "enabled": true,
+    "cover": "",
+    "image_count": 0,
+    "rooms": [],
+    "slug": "project-5"
+  },
+  {
+    "id": "mujeet-yelanka",
+    "source_folder": "mujeet yelanka",
+    "title": "Project 6",
+    "slug": "project-6",
+    "order": 6,
+    "description": "Explore the design renders, organized by space. Select any image for a closer look.",
+    "enabled": true,
+    "cover": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/light-pastel-a7e0693f7dcc.jpg",
+    "image_count": 6,
+    "rooms": [
+      {
+        "id": "kids-room-bae858b2440d",
+        "title": "Kids Bedroom",
+        "source_folder": "kids room",
+        "images": [
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/bed-other-side-079984327b45.jpg",
+            "title": "Bed Other Side",
+            "source": "kids room/bed other side .png",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/light-pastel-a7e0693f7dcc.jpg",
+            "title": "Light Pastel",
+            "source": "kids room/light pastel.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/little-dark-bunk-bed-901d1341da03.jpg",
+            "title": "Little Dark Bunk Bed",
+            "source": "kids room/little dark bunk bed.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/mirror-side-204110ca9d73.jpg",
+            "title": "Mirror Side",
+            "source": "kids room/MIRROR SIDE.png",
+            "width": 1634,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/wadrobe-dark-color-6d608284e133.jpg",
+            "title": "Wadrobe Dark Color",
+            "source": "kids room/wadrobe dark color.png",
+            "width": 1920,
+            "height": 1537
+          },
+          {
+            "image": "images/projects/mujeet-yelanka/kids-room-bae858b2440d/window-side-stiudy-table-a3a8610614df.jpg",
+            "title": "Window Side Stiudy Table",
+            "source": "kids room/WINDOW SIDE STIUDY TABLE.png",
+            "width": 1898,
+            "height": 1920
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mujeet-sir",
+    "source_folder": "MUJEET SIR",
+    "title": "Project 7",
+    "slug": "project-7",
+    "order": 7,
+    "description": "A complete residence scheme — living hall, terrace, master bedroom, kids bedroom, parent room, kitchen and study, explored space by space.",
+    "enabled": true,
+    "cover": "images/projects/mujeet-sir/living-hall-9f033670536b/1-00da1a790978.jpg",
+    "image_count": 136,
+    "rooms": [
+      {
+        "id": "overview",
+        "title": "Exterior & Overview",
+        "source_folder": "",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/overview/1-grey-79af8f801d90.jpg",
+            "title": "1 Grey",
+            "source": "1 GREY.jpg",
+            "width": 1024,
+            "height": 560
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/11-501f9bdfba64.jpg",
+            "title": "Exterior & Overview — View 2",
+            "source": "11.png",
+            "width": 1315,
+            "height": 1052
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/76d20ab829d4f746ba386b50394304b2-6b28b895324e.jpg",
+            "title": "Exterior & Overview — View 3",
+            "source": "76d20ab829d4f746ba386b50394304b2.jpg",
+            "width": 1200,
+            "height": 720
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/77b22b38b3ff940c33645f5b5cecbe83-6b5b1799bcc0.jpg",
+            "title": "Exterior & Overview — View 4",
+            "source": "77b22b38b3ff940c33645f5b5cecbe83.jpg",
+            "width": 899,
+            "height": 1200
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/9487aeed8e8b88f5b2be8949daa98266-a5b2d377f068.jpg",
+            "title": "Exterior & Overview — View 5",
+            "source": "9487aeed8e8b88f5b2be8949daa98266.jpg",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/968d9916bef71d3a7a3f3e82d58b638e-257bd553d840.jpg",
+            "title": "Exterior & Overview — View 6",
+            "source": "968d9916bef71d3a7a3f3e82d58b638e.jpg",
+            "width": 736,
+            "height": 736
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/fluted-laminate-72a18b12cce1.jpg",
+            "title": "Fluted Laminate",
+            "source": "fluted laminate.jpg",
+            "width": 564,
+            "height": 564
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/front-new-23e48ec45a26.jpg",
+            "title": "Front New",
+            "source": "FRONT NEW.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/kids-room-1-a7d27da6e2fe.jpg",
+            "title": "Kids Room 1",
+            "source": "kids room 1.png",
+            "width": 1920,
+            "height": 1345
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/kids-room2-f407745a65bf.jpg",
+            "title": "Kids Room2",
+            "source": "kids room2.png",
+            "width": 1920,
+            "height": 1345
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/kitchen-ceoling-new-03ffc9f60d40.jpg",
+            "title": "Kitchen Ceiling New",
+            "source": "kitchen ceoling new.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/screenshot-2026-08-22-015000-f3ffd5bfec26.jpg",
+            "title": "Exterior & Overview — View 12",
+            "source": "Screenshot 2026-08-22 015000.png",
+            "width": 1036,
+            "height": 672
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/screenshot-2026-08-22-033046-76e89f9abd3a.jpg",
+            "title": "Exterior & Overview — View 13",
+            "source": "Screenshot 2026-08-22 033046.png",
+            "width": 925,
+            "height": 648
+          },
+          {
+            "image": "images/projects/mujeet-sir/overview/wood-19abf4712710.jpg",
+            "title": "Wood",
+            "source": "wood.jpg",
+            "width": 600,
+            "height": 1200
+          }
+        ]
+      },
+      {
+        "id": "1-6b86b273ff34",
+        "title": "Kitchen & Living",
+        "source_folder": "1",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/1-c0de80ad903c.jpg",
+            "title": "Kitchen & Living — View 1",
+            "source": "1/1 .png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/123-2659793a078f.jpg",
+            "title": "Kitchen & Living — View 2",
+            "source": "1/123.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/2-6f886a818b77.jpg",
+            "title": "Kitchen & Living — View 3",
+            "source": "1/2.png",
+            "width": 1920,
+            "height": 1441
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/3-cf15354d6184.jpg",
+            "title": "Kitchen & Living — View 4",
+            "source": "1/3.png",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/4-e461158b2ffd.jpg",
+            "title": "Kitchen & Living — View 5",
+            "source": "1/4.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/kitchen-new-wave-1007dcb585a5.jpg",
+            "title": "Kitchen New Wave",
+            "source": "1/kitchen new wave.png",
+            "width": 1376,
+            "height": 768
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/new-1-79eeae2f718f.jpg",
+            "title": "New 1",
+            "source": "1/new 1.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/new-2-8adf74d1f506.jpg",
+            "title": "New 2",
+            "source": "1/NEW 2.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/new-3-ea0e58d8ea57.jpg",
+            "title": "New 3",
+            "source": "1/NEW 3.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/new-4-73490cf65208.jpg",
+            "title": "New 4",
+            "source": "1/NEW 4.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/mujeet-sir/1-6b86b273ff34/new5-d155d14624fb.jpg",
+            "title": "New5",
+            "source": "1/NEW5.png",
+            "width": 1920,
+            "height": 845
+          }
+        ]
+      },
+      {
+        "id": "2d-drawings-ee91669f7a51",
+        "title": "2D Drawings",
+        "source_folder": "2d drawings",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/2d-drawings-ee91669f7a51/kids-room-2d-6630b816252f.jpg",
+            "title": "Kids Room 2D",
+            "source": "2d drawings/kids room 2d.png",
+            "width": 1600,
+            "height": 1280
+          },
+          {
+            "image": "images/projects/mujeet-sir/2d-drawings-ee91669f7a51/kitchen-2d-nsection-drawing-259a1d37b2a6.jpg",
+            "title": "Kitchen 2D Section Drawing",
+            "source": "2d drawings/kitchen 2d nsection drawing.png",
+            "width": 1600,
+            "height": 1280
+          },
+          {
+            "image": "images/projects/mujeet-sir/2d-drawings-ee91669f7a51/kitchen-wave-ceiling-bfd2f88cf727.jpg",
+            "title": "Kitchen Wave Ceiling",
+            "source": "2d drawings/KITCHEN/kitchen wave ceiling.png",
+            "width": 1600,
+            "height": 1280
+          },
+          {
+            "image": "images/projects/mujeet-sir/2d-drawings-ee91669f7a51/kitchen-d302f08d9b38.jpg",
+            "title": "Kitchen",
+            "source": "2d drawings/KITCHEN/kitchen.png",
+            "width": 1600,
+            "height": 1280
+          },
+          {
+            "image": "images/projects/mujeet-sir/2d-drawings-ee91669f7a51/parent-rooml-92d8e82bfb16.jpg",
+            "title": "Parent Rooml",
+            "source": "2d drawings/Parent_Rooml.png",
+            "width": 1600,
+            "height": 1280
+          }
+        ]
+      },
+      {
+        "id": "living-hall-9f033670536b",
+        "title": "Living Hall",
+        "source_folder": "LIVING HALL",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/1-00da1a790978.jpg",
+            "title": "Living Hall — View 1",
+            "source": "LIVING HALL/1.png",
+            "width": 1920,
+            "height": 808
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/12-5ea3981597e5.jpg",
+            "title": "Living Hall — View 2",
+            "source": "LIVING HALL/12.png",
+            "width": 1900,
+            "height": 1093
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/2-486d10dc8b43.jpg",
+            "title": "Living Hall — View 3",
+            "source": "LIVING HALL/2.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/3-9062d34b1bae.jpg",
+            "title": "Living Hall — View 4",
+            "source": "LIVING HALL/3.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/4-221bff35aeda.jpg",
+            "title": "Living Hall — View 5",
+            "source": "LIVING HALL/4.png",
+            "width": 1920,
+            "height": 808
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/5-4e21e68a9724.jpg",
+            "title": "Living Hall — View 6",
+            "source": "LIVING HALL/5.png",
+            "width": 1920,
+            "height": 808
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/7-a1dbf26012f8.jpg",
+            "title": "Living Hall — View 7",
+            "source": "LIVING HALL/7.png",
+            "width": 1920,
+            "height": 808
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/bedroom-9e5fb932efbe.jpg",
+            "title": "Bedroom",
+            "source": "LIVING HALL/bedroom.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/l3-ce5f9f87fb3a.jpg",
+            "title": "L3",
+            "source": "LIVING HALL/L3.png",
+            "width": 1920,
+            "height": 1105
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/living-hall-2-60b512789cfe.jpg",
+            "title": "Living Hall 2",
+            "source": "LIVING HALL/LIVING HALL 2.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/living-hall-9f033670536b/trv-unit-eede6b9bec7d.jpg",
+            "title": "Trv Unit",
+            "source": "LIVING HALL/TRV UNIT.png",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "id": "master-bedroom-1e5be85f5a03",
+        "title": "Master Bedroom",
+        "source_folder": "master bedroom",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/1-149795ee28e7.jpg",
+            "title": "Master Bedroom — View 1",
+            "source": "master bedroom/1.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/2-21cbc5295c07.jpg",
+            "title": "Master Bedroom — View 2",
+            "source": "master bedroom/2.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/3-59421cfde468.jpg",
+            "title": "Master Bedroom — View 3",
+            "source": "master bedroom/3.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/33-d7f81efe95ac.jpg",
+            "title": "Master Bedroom — View 4",
+            "source": "master bedroom/33.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/4-47e4f1dfe4de.jpg",
+            "title": "Master Bedroom — View 5",
+            "source": "master bedroom/4.png",
+            "width": 1125,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/f1-c6b1bfa67f66.jpg",
+            "title": "F1",
+            "source": "master bedroom/f1.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/f2-c9065ec09187.jpg",
+            "title": "F2",
+            "source": "master bedroom/f2.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/master-bedroom-1e5be85f5a03/f6-a9e1d2fdaf96.jpg",
+            "title": "F6",
+            "source": "master bedroom/f6.png",
+            "width": 1873,
+            "height": 1498
+          }
+        ]
+      },
+      {
+        "id": "new-folder-2-e427cb975665",
+        "title": "Kids Bedroom",
+        "source_folder": "New folder (2)",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/bed-side-6a1a62c26837.jpg",
+            "title": "Bed Side",
+            "source": "New folder (2)/BED SIDE.png",
+            "width": 1875,
+            "height": 1875
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/new-bunk-bed-f05b886c642c.jpg",
+            "title": "New Bunk Bed",
+            "source": "New folder (2)/new bunk bed.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/bed-other-side-06e27ae749aa.jpg",
+            "title": "Bed Other Side",
+            "source": "New folder (2)/New folder/bed other side .png",
+            "width": 1920,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/light-pastel-dfa551cb2033.jpg",
+            "title": "Light Pastel",
+            "source": "New folder (2)/New folder/light pastel.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/little-dark-bunk-bed-a7996402d7c4.jpg",
+            "title": "Little Dark Bunk Bed",
+            "source": "New folder (2)/New folder/little dark bunk bed.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/mirror-side-0c93680cc33b.jpg",
+            "title": "Mirror Side",
+            "source": "New folder (2)/New folder/MIRROR SIDE.png",
+            "width": 1634,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/wadrobe-dark-color-6fb62f555e10.jpg",
+            "title": "Wadrobe Dark Color",
+            "source": "New folder (2)/New folder/wadrobe dark color.png",
+            "width": 1920,
+            "height": 1537
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/wadrobe-light-shade-24bd895adcde.jpg",
+            "title": "Wadrobe Light Shade",
+            "source": "New folder (2)/New folder/wadrobe light shade.png",
+            "width": 1920,
+            "height": 1537
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/window-side-stiudy-table-7dcea3632dd8.jpg",
+            "title": "Window Side Stiudy Table",
+            "source": "New folder (2)/New folder/WINDOW SIDE STIUDY TABLE.png",
+            "width": 1898,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/window-side-883626b1be5d.jpg",
+            "title": "Window Side",
+            "source": "New folder (2)/New folder/WINDOW SIDE.png",
+            "width": 1873,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/wadrobe-kids-room-side-f14aff0c0fa1.jpg",
+            "title": "Wadrobe Kids Room Side",
+            "source": "New folder (2)/wadrobe kids room side.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-2-e427cb975665/wadrobe-side-1-753902309d8f.jpg",
+            "title": "Wadrobe Side 1",
+            "source": "New folder (2)/wadrobe side 1.png",
+            "width": 1920,
+            "height": 1537
+          }
+        ]
+      },
+      {
+        "id": "new-folder-4-53c8ac8b7f42",
+        "title": "Parent Room & Study",
+        "source_folder": "New folder (4)",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/1-db509a2f5c84.jpg",
+            "title": "Parent Room & Study — View 1",
+            "source": "New folder (4)/1.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/2-f893e649a3b5.jpg",
+            "title": "Parent Room & Study — View 2",
+            "source": "New folder (4)/2.jpg",
+            "width": 1024,
+            "height": 769
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/2-6f1f3addd87f.jpg",
+            "title": "Parent Room & Study — View 3",
+            "source": "New folder (4)/2.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/3-f-copy-b8f6b51fa6a1.jpg",
+            "title": "3 F - Copy",
+            "source": "New folder (4)/3 f - Copy.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/4-copy-d27463203d47.jpg",
+            "title": "4 - Copy",
+            "source": "New folder (4)/4 - Copy.png",
+            "width": 1920,
+            "height": 1441
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/5c31518c-1814-439f-b4f7-ee83a58f6c69-c5960fdbf724.jpg",
+            "title": "5C31518C-1814-439F-B4F7-Ee83A58F6C69",
+            "source": "New folder (4)/5c31518c-1814-439f-b4f7-ee83a58f6c69.jpg",
+            "width": 1024,
+            "height": 769
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/ede9f387fcdc88b9be6316b5e9574ff7-41554f93be1d.jpg",
+            "title": "Parent Room & Study — View 7",
+            "source": "New folder (4)/ede9f387fcdc88b9be6316b5e9574ff7.jpg",
+            "width": 675,
+            "height": 1200
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/f1da2dc950cf4d233b5cb1970d8bb877-31338620f95d.jpg",
+            "title": "Parent Room & Study — View 8",
+            "source": "New folder (4)/f1da2dc950cf4d233b5cb1970d8bb877.jpg",
+            "width": 1121,
+            "height": 1920
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/screenshot-2026-09-09-175323-0dbc60e39fa4.jpg",
+            "title": "Parent Room & Study — View 9",
+            "source": "New folder (4)/Screenshot 2026-09-09 175323.png",
+            "width": 1368,
+            "height": 745
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/study-table-parent-room-b7ff072c846c.jpg",
+            "title": "Study Table Parent Room",
+            "source": "New folder (4)/STUDY TABLE PARENT ROOM.jpg",
+            "width": 726,
+            "height": 972
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/table-final-view-5125184c4830.jpg",
+            "title": "Table Final View",
+            "source": "New folder (4)/TABLE FINAL VIEW.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-4-53c8ac8b7f42/table-side-5f297270f3b6.jpg",
+            "title": "Table Side",
+            "source": "New folder (4)/TABLE SIDE.png",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      },
+      {
+        "id": "new-folder-cf28f49ec597",
+        "title": "Parent Room",
+        "source_folder": "New folder",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/1-1fc0123d28b0.jpg",
+            "title": "Parent Room — View 1",
+            "source": "New folder/1.png",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/2-cc2d129d7cd3.jpg",
+            "title": "Parent Room — View 2",
+            "source": "New folder/2.png",
+            "width": 1500,
+            "height": 844
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/27efd1ef9e777ef5cf1979d57ca9897a-6a855a289b28.jpg",
+            "title": "Parent Room — View 3",
+            "source": "New folder/27efd1ef9e777ef5cf1979d57ca9897a.jpg",
+            "width": 487,
+            "height": 960
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/3-16d70d18da4c.jpg",
+            "title": "Parent Room — View 4",
+            "source": "New folder/3.png",
+            "width": 1125,
+            "height": 844
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/4-6afd0b326e9e.jpg",
+            "title": "Parent Room — View 5",
+            "source": "New folder/4.png",
+            "width": 1500,
+            "height": 844
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/matt-tiles-urban-tile-04df0e9460e4.jpg",
+            "title": "Matt Tiles Urban Tile",
+            "source": "New folder/Matt Tiles _ URBAN TILE.jpg",
+            "width": 520,
+            "height": 924
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/nt-room-new-27392ff3e24b.jpg",
+            "title": "Nt Room New",
+            "source": "New folder/NT ROOM NEW.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/new-folder-cf28f49ec597/parent-room-2-187aaf48b878.jpg",
+            "title": "Parent Room 2",
+            "source": "New folder/PARENT ROOM 2.png",
+            "width": 1000,
+            "height": 563
+          }
+        ]
+      },
+      {
+        "id": "rekha-4a9d69a85589",
+        "title": "Terrace & Living Hall",
+        "source_folder": "REKHA",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-2ef1c929ee38.jpg",
+            "title": "Terrace & Living Hall — View 1",
+            "source": "REKHA/1.jpg",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-a32623dcf957.jpg",
+            "title": "Terrace & Living Hall — View 2",
+            "source": "REKHA/1.png",
+            "width": 1199,
+            "height": 900
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/12-7873675bcc78.jpg",
+            "title": "Terrace & Living Hall — View 3",
+            "source": "REKHA/12.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/123-aeab65f4b556.jpg",
+            "title": "Terrace & Living Hall — View 4",
+            "source": "REKHA/123.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/2-e93a5c983b8d.jpg",
+            "title": "Terrace & Living Hall — View 5",
+            "source": "REKHA/2.png",
+            "width": 1199,
+            "height": 900
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/224-73c59b59acc9.jpg",
+            "title": "Terrace & Living Hall — View 6",
+            "source": "REKHA/224.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/3-bbc9d2fdd71e.jpg",
+            "title": "Terrace & Living Hall — View 7",
+            "source": "REKHA/3.png",
+            "width": 1500,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/4ad9e2c7-d622-42db-8439-7449fc440bcd-51e5e9d0c21f.jpg",
+            "title": "4Ad9E2C7-D622-42DB-8439-7449Fc440Bcd",
+            "source": "REKHA/4ad9e2c7-d622-42db-8439-7449fc440bcd.jpg",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-24d5ec19eaa5.jpg",
+            "title": "Terrace & Living Hall — View 9",
+            "source": "REKHA/New folder (2)/1.jpg",
+            "width": 1536,
+            "height": 1152
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/10-4a202948c0ee.jpg",
+            "title": "Terrace & Living Hall — View 10",
+            "source": "REKHA/New folder (2)/10.jpg",
+            "width": 1500,
+            "height": 1178
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/11-c7dbc04a0c88.jpg",
+            "title": "Terrace & Living Hall — View 11",
+            "source": "REKHA/New folder (2)/11.jpg",
+            "width": 1500,
+            "height": 1000
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/2-f3860e217a58.jpg",
+            "title": "Terrace & Living Hall — View 12",
+            "source": "REKHA/New folder (2)/2.jpg",
+            "width": 1500,
+            "height": 1063
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/3-18dd4cfcddf8.jpg",
+            "title": "Terrace & Living Hall — View 13",
+            "source": "REKHA/New folder (2)/3.jpg",
+            "width": 1920,
+            "height": 1235
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/4-0f038804a007.jpg",
+            "title": "Terrace & Living Hall — View 14",
+            "source": "REKHA/New folder (2)/4.jpg",
+            "width": 1350,
+            "height": 1500
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/4-0a0c5e5e5d01.jpg",
+            "title": "Terrace & Living Hall — View 15",
+            "source": "REKHA/New folder (2)/4.png",
+            "width": 1500,
+            "height": 791
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/7-e62a2ab4129e.jpg",
+            "title": "Terrace & Living Hall — View 16",
+            "source": "REKHA/New folder (2)/7.jpg",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/8-9516a2643d4b.jpg",
+            "title": "Terrace & Living Hall — View 17",
+            "source": "REKHA/New folder (2)/8.jpg",
+            "width": 1536,
+            "height": 1153
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/9-0fe895f27ca4.jpg",
+            "title": "Terrace & Living Hall — View 18",
+            "source": "REKHA/New folder (2)/9.jpg",
+            "width": 1920,
+            "height": 1152
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/bd491d78-cbf0-441e-809a-4c7266238307-406b866a7331.jpg",
+            "title": "Bd491D78-Cbf0-441E-809A-4C7266238307",
+            "source": "REKHA/New folder (2)/bd491d78-cbf0-441e-809a-4c7266238307.jpg",
+            "width": 1080,
+            "height": 997
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/de0f28ae1c740246383b9abc5830311e-d2022972b32e.jpg",
+            "title": "Terrace & Living Hall — View 20",
+            "source": "REKHA/New folder (2)/de0f28ae1c740246383b9abc5830311e.jpg",
+            "width": 292,
+            "height": 584
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-184074d066a6.jpg",
+            "title": "Terrace & Living Hall — View 21",
+            "source": "REKHA/New folder/1.jpg",
+            "width": 1024,
+            "height": 769
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-c671fdc22c94.jpg",
+            "title": "Terrace & Living Hall — View 22",
+            "source": "REKHA/New folder/1.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/11-567bdaf0b0f7.jpg",
+            "title": "Terrace & Living Hall — View 23",
+            "source": "REKHA/New folder/11.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/2-ed48c10277cc.jpg",
+            "title": "Terrace & Living Hall — View 24",
+            "source": "REKHA/New folder/2.jpg",
+            "width": 1024,
+            "height": 769
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/22-eb3100536e14.jpg",
+            "title": "Terrace & Living Hall — View 25",
+            "source": "REKHA/New folder/22.png",
+            "width": 1500,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/4ad9e2c7-d622-42db-8439-7449fc440bcd-9b88ca6c23e1.jpg",
+            "title": "4Ad9E2C7-D622-42DB-8439-7449Fc440Bcd",
+            "source": "REKHA/New folder/4ad9e2c7-d622-42db-8439-7449fc440bcd.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-0a883ad87588.jpg",
+            "title": "Terrace & Living Hall — View 27",
+            "source": "REKHA/terrace/1.jpg",
+            "width": 908,
+            "height": 497
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/1-ebd33580e335.jpg",
+            "title": "Terrace & Living Hall — View 28",
+            "source": "REKHA/terrace/1.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/11-76f6836fbd58.jpg",
+            "title": "Terrace & Living Hall — View 29",
+            "source": "REKHA/terrace/11.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/121-7c345e1f51dd.jpg",
+            "title": "Terrace & Living Hall — View 30",
+            "source": "REKHA/terrace/121.png",
+            "width": 1920,
+            "height": 1050
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/2-c94a4ccee787.jpg",
+            "title": "Terrace & Living Hall — View 31",
+            "source": "REKHA/terrace/2.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/3-138e7bccc429.jpg",
+            "title": "Terrace & Living Hall — View 32",
+            "source": "REKHA/terrace/3.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/4-773b028b2266.jpg",
+            "title": "Terrace & Living Hall — View 33",
+            "source": "REKHA/terrace/4.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/5-918a8185005e.jpg",
+            "title": "Terrace & Living Hall — View 34",
+            "source": "REKHA/terrace/5.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/6-284bcde6733e.jpg",
+            "title": "Terrace & Living Hall — View 35",
+            "source": "REKHA/terrace/6.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/day-view-c8b131cf3103.jpg",
+            "title": "Day View",
+            "source": "REKHA/terrace/DAY VIEW.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/f-night-view-2a87c2074a6a.jpg",
+            "title": "F Night View",
+            "source": "REKHA/terrace/F NIGHT VIEW.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/family-sitting-310750d59095.jpg",
+            "title": "Family Sitting",
+            "source": "REKHA/terrace/FAMILY SITTING .png",
+            "width": 1920,
+            "height": 1079
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/final-1-d23e577b549d.jpg",
+            "title": "Final 1",
+            "source": "REKHA/terrace/FINAL 1.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/final-2-waterfall-side-694672749ec7.jpg",
+            "title": "Final 2 Waterfall Side",
+            "source": "REKHA/terrace/final 2 waterfall side.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/front-view-f-113adfa252ae.jpg",
+            "title": "Front View F",
+            "source": "REKHA/terrace/front view f.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/night-view-f1-c33a0ee49c01.jpg",
+            "title": "Night View F1",
+            "source": "REKHA/terrace/NIGHT VIEW F1.png",
+            "width": 1920,
+            "height": 680
+          },
+          {
+            "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/sect-f-418c053412b8.jpg",
+            "title": "Sect F",
+            "source": "REKHA/terrace/SECT F.png",
+            "width": 1920,
+            "height": 680
+          }
+        ]
+      },
+      {
+        "id": "screenshots-98d875b61ff2",
+        "title": "Screenshots",
+        "source_folder": "screenshots",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/screenshots-98d875b61ff2/1-c501b61a3243.jpg",
+            "title": "Screenshots — View 1",
+            "source": "screenshots/1.png",
+            "width": 1157,
+            "height": 641
+          }
+        ]
+      },
+      {
+        "id": "terrace-c777502cdbbf",
+        "title": "Terrace",
+        "source_folder": "TERRACE",
+        "images": [
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/1-faa46e462d3d.jpg",
+            "title": "Terrace — View 1",
+            "source": "TERRACE/1 .png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/2-59c4ea045691.jpg",
+            "title": "Terrace — View 2",
+            "source": "TERRACE/2.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/3-48f9c485e4df.jpg",
+            "title": "Terrace — View 3",
+            "source": "TERRACE/3.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/4-0a5029763880.jpg",
+            "title": "Terrace — View 4",
+            "source": "TERRACE/4.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/door-side-4e280f66b9f6.jpg",
+            "title": "Door Side",
+            "source": "TERRACE/door side.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/door-v-06bbd44ebf1f.jpg",
+            "title": "Door V",
+            "source": "TERRACE/door v.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/ff-89a07ce62830.jpg",
+            "title": "Ff",
+            "source": "TERRACE/ff.png",
+            "width": 1920,
+            "height": 845
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/side-view-48081835b3da.jpg",
+            "title": "Side View",
+            "source": "TERRACE/SIDE VIEW.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/sv-925c28929950.jpg",
+            "title": "Sv",
+            "source": "TERRACE/SV.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/t1-59305165c2c3.jpg",
+            "title": "T1",
+            "source": "TERRACE/t1.png",
+            "width": 1920,
+            "height": 846
+          },
+          {
+            "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/top-view-fd05031e8564.jpg",
+            "title": "Top View",
+            "source": "TERRACE/top view.png",
+            "width": 1920,
+            "height": 845
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rashmi",
+    "source_folder": "RASHMI",
+    "title": "Project 8",
+    "slug": "project-8",
+    "order": 8,
+    "description": "Bedroom joinery, wardrobe detailing, TV unit and study nook designs developed around warm wood and fluted finishes.",
+    "enabled": true,
+    "cover": "images/projects/rashmi/rashmi-3e4b9e17be94/hall-tv-021f478c9c1b.jpg",
+    "image_count": 23,
+    "rooms": [
+      {
+        "id": "new-folder-2-e427cb975665",
+        "title": "Overview",
+        "source_folder": "New folder (2)",
+        "images": [
+          {
+            "image": "images/projects/rashmi/new-folder-2-e427cb975665/b83248d9cd530b94bd4e2452253f9e57-140d1fd1b065.jpg",
+            "title": "Overview — View 1",
+            "source": "New folder (2)/b83248d9cd530b94bd4e2452253f9e57.jpg",
+            "width": 561,
+            "height": 1000
+          }
+        ]
+      },
+      {
+        "id": "new-folder-cf28f49ec597",
+        "title": "Living Hall",
+        "source_folder": "New folder",
+        "images": [
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/1-1fc0123d28b0.jpg",
+            "title": "Living Hall — View 1",
+            "source": "New folder/1.png",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/182ce4ca5ef7c7c3bc62514faaa916c6-a19a1713d09a.jpg",
+            "title": "Living Hall — View 2",
+            "source": "New folder/182ce4ca5ef7c7c3bc62514faaa916c6.jpg",
+            "width": 465,
+            "height": 925
+          },
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/2-2e726ee7adc1.jpg",
+            "title": "Living Hall — View 3",
+            "source": "New folder/2.jpg",
+            "width": 736,
+            "height": 1308
+          },
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/3-f20f5846a54e.jpg",
+            "title": "Living Hall — View 4",
+            "source": "New folder/3.jpg",
+            "width": 609,
+            "height": 1200
+          },
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/hall-tile-1-12237fc3870a.jpg",
+            "title": "Hall Tile 1",
+            "source": "New folder/hall tile 1.jpg",
+            "width": 736,
+            "height": 1103
+          },
+          {
+            "image": "images/projects/rashmi/new-folder-cf28f49ec597/image-0-8f62b89e2ac4-63d69a030294.jpg",
+            "title": "Image-0-8F62B89E2Ac4",
+            "source": "New folder/image-0-8f62b89e2ac4.webp",
+            "width": 1800,
+            "height": 1200
+          }
+        ]
+      },
+      {
+        "id": "rashmi-3e4b9e17be94",
+        "title": "Bedroom & TV Unit",
+        "source_folder": "rashmi",
+        "images": [
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/1-8244dce24209.jpg",
+            "title": "Bedroom & TV Unit — View 1",
+            "source": "rashmi/1.jpg",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/4-40e9e1673c7a.jpg",
+            "title": "Bedroom & TV Unit — View 2",
+            "source": "rashmi/4.jpg",
+            "width": 1600,
+            "height": 1200
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/back-side-of-bed-efa4c79ba40d.jpg",
+            "title": "Back Side Of Bed",
+            "source": "rashmi/BACK SIDE OF BED.jpg",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/0929f7454365de1b25832be5e44048c8-ecd5fff3f10b.jpg",
+            "title": "Bedroom & TV Unit — View 4",
+            "source": "rashmi/rashmi mam/0929f7454365de1b25832be5e44048c8.jpg",
+            "width": 1024,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/1-ce528cf4193c.jpg",
+            "title": "Bedroom & TV Unit — View 5",
+            "source": "rashmi/rashmi mam/1.png",
+            "width": 1125,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/2-9e09c85d25cf.jpg",
+            "title": "Bedroom & TV Unit — View 6",
+            "source": "rashmi/rashmi mam/2.png",
+            "width": 1875,
+            "height": 1406
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/2b68a6cb054619a931f120b1db56e4f3-67ca42a283a8.jpg",
+            "title": "Bedroom & TV Unit — View 7",
+            "source": "rashmi/rashmi mam/2b68a6cb054619a931f120b1db56e4f3.jpg",
+            "width": 640,
+            "height": 1280
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/3-6a37a66cb26b.jpg",
+            "title": "Bedroom & TV Unit — View 8",
+            "source": "rashmi/rashmi mam/3.png",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/4-986e35984051.jpg",
+            "title": "Bedroom & TV Unit — View 9",
+            "source": "rashmi/rashmi mam/4.png",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/762dd0ff68c18fd4537c1d7a78d048e5-2a28ba596842.jpg",
+            "title": "Bedroom & TV Unit — View 10",
+            "source": "rashmi/rashmi mam/762dd0ff68c18fd4537c1d7a78d048e5.jpg",
+            "width": 1200,
+            "height": 1600
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/e9f3bfa45e12482a4f8f4aac54952324-2f7f34298839.jpg",
+            "title": "Bedroom & TV Unit — View 11",
+            "source": "rashmi/rashmi mam/e9f3bfa45e12482a4f8f4aac54952324.jpg",
+            "width": 736,
+            "height": 1308
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/f93d207210d1945f6de16342896b85b6-bebd9ee9f1d4.jpg",
+            "title": "Bedroom & TV Unit — View 12",
+            "source": "rashmi/rashmi mam/f93d207210d1945f6de16342896b85b6.jpg",
+            "width": 1200,
+            "height": 1800
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/hall-tv-021f478c9c1b.jpg",
+            "title": "Hall TV",
+            "source": "rashmi/rashmi mam/HALL TV.png",
+            "width": 1406,
+            "height": 1125
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/wood-fb5650c3991c.jpg",
+            "title": "Wood",
+            "source": "rashmi/rashmi mam/wood.jpg",
+            "width": 565,
+            "height": 1000
+          },
+          {
+            "image": "images/projects/rashmi/rashmi-3e4b9e17be94/wadrobe-1-79208eaa3515.jpg",
+            "title": "Wadrobe 1",
+            "source": "rashmi/wadrobe 1.jpg",
+            "width": 1920,
+            "height": 1440
+          }
+        ]
+      },
+      {
+        "id": "tv-unit-images-706904243b5c",
+        "title": "TV Unit",
+        "source_folder": "tv unit images",
+        "images": [
+          {
+            "image": "images/projects/rashmi/tv-unit-images-706904243b5c/3-93e9afef677d.jpg",
+            "title": "TV Unit — View 1",
+            "source": "tv unit images/3.jpg",
+            "width": 720,
+            "height": 720
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jaspal-ji",
+    "source_folder": "jaspal ji",
+    "title": "Project 9",
+    "slug": "project-9",
+    "order": 9,
+    "description": "Bedroom layout study with wardrobe placement and bed-back detailing explored from multiple angles.",
+    "enabled": true,
+    "cover": "images/projects/jaspal-ji/overview/1-4c468b3b1699.jpg",
+    "image_count": 4,
+    "rooms": [
+      {
+        "id": "overview",
+        "title": "Bedroom",
+        "source_folder": "",
+        "images": [
+          {
+            "image": "images/projects/jaspal-ji/overview/1-4c468b3b1699.jpg",
+            "title": "Bedroom — View 1",
+            "source": "1.jpg",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/jaspal-ji/overview/4-acf116f09554.jpg",
+            "title": "Bedroom — View 2",
+            "source": "4.jpg",
+            "width": 1600,
+            "height": 1200
+          },
+          {
+            "image": "images/projects/jaspal-ji/overview/back-side-of-bed-f3e1aacbaf52.jpg",
+            "title": "Back Side Of Bed",
+            "source": "BACK SIDE OF BED.jpg",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "image": "images/projects/jaspal-ji/overview/wadrobe-1-8104350db7a6.jpg",
+            "title": "Wadrobe 1",
+            "source": "wadrobe 1.jpg",
+            "width": 1920,
+            "height": 1440
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "project-10",
+    "source_folder": "New folder (3)",
+    "title": "Project 10",
+    "slug": "project-10",
+    "order": 10,
+    "description": "Kids bedroom study in an ocean-themed scheme with a study desk, dressing unit and wardrobe elevation.",
+    "enabled": true,
+    "cover": "images/projects/project-10/overview/1-1-15e5a6b39b36.jpg",
+    "image_count": 7,
+    "rooms": [
+      {
+        "id": "overview",
+        "title": "Kids Bedroom",
+        "source_folder": "",
+        "images": [
+          {
+            "image": "images/projects/project-10/overview/1-1-15e5a6b39b36.jpg",
+            "title": "1 1",
+            "source": "1.1.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/project-10/overview/1-9461eefa9b19.jpg",
+            "title": "Kids Bedroom — View 2",
+            "source": "1.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/project-10/overview/2-33761a265dad.jpg",
+            "title": "Kids Bedroom — View 3",
+            "source": "2.png",
+            "width": 1920,
+            "height": 883
+          },
+          {
+            "image": "images/projects/project-10/overview/bed-side-ddcdaadf1698.jpg",
+            "title": "Bed Side",
+            "source": "bed side.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/project-10/overview/dressing-table-ad9df2338cf3.jpg",
+            "title": "Dressing Table",
+            "source": "dressing table.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/project-10/overview/study-table-side-225c78738087.jpg",
+            "title": "Study Table Side",
+            "source": "study table side.png",
+            "width": 1920,
+            "height": 1536
+          },
+          {
+            "image": "images/projects/project-10/overview/wadrobe-side-5fe21d04f461.jpg",
+            "title": "Wadrobe Side",
+            "source": "WADROBE SIDE.png",
+            "width": 1920,
+            "height": 1536
+          }
+        ]
+      }
+    ]
+  }
 ]

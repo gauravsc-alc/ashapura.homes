@@ -4,7 +4,9 @@ The active Django website reads [content/portfolio.json](../content/portfolio.js
 
 ## Imported inventory
 
-All 53 JPG/JPEG/PNG images found under `H:\Rekha_Projects\my projects` were imported as web-optimized JPEGs. Originals remain untouched on the source drive.
+Two source libraries have been imported as web-optimized JPEGs. Originals remain untouched on their drives.
+
+All 53 JPG/JPEG/PNG images found under `H:\Rekha_Projects\my projects` were imported as web-optimized JPEGs.
 
 | Source folder | Images | Website behavior |
 | --- | ---: | --- |
@@ -15,7 +17,16 @@ All 53 JPG/JPEG/PNG images found under `H:\Rekha_Projects\my projects` were impo
 | project 4 | 13 | Living/dining, kids bedroom, kitchen, master bedroom |
 | project 5 | 0 | Clickable coming-soon card; no invented images |
 
-`Kids_Bedroom_Renders.pdf` is a document, not an image, and is excluded. No exterior images were supplied; the expertise section still labels missing exterior images honestly.
+A second batch of 170 renders from the SketchUp working library was imported with [scripts/import_rekha_projects.py](../scripts/import_rekha_projects.py):
+
+| Source folder | Images | Website behavior |
+| --- | ---: | --- |
+| MUJEET SIR | 136 | Public title Project 7; living hall, terrace, master bedroom, kids bedroom, parent room, study, kitchen, 2D drawings |
+| RASHMI | 23 | Public title Project 8; bedroom and TV unit, living hall |
+| jaspal ji | 4 | Public title Project 9; bedroom study |
+| New folder (3) | 7 | Public title Project 10; kids bedroom study |
+
+Five duplicate files were detected by content hash and skipped during this import. The `wall paper` and `laminates kids room` folders hold material swatches rather than renders, the `ies-lights-pack` folder is a lighting reference library, and the `SketchUp` folder is the installed application — none are published. `Kids_Bedroom_Renders.pdf` is a document, not an image, and is excluded. No exterior images were supplied; the expertise section still labels missing exterior images honestly.
 
 Repository copies live under [static/images/projects/](../static/images/projects/). They are JPEG quality 85 with a maximum dimension of 1920 pixels, preserving aspect ratio without upscaling. This is every supplied image, not a byte-for-byte archive of large original files. EXIF orientation is applied, metadata is not copied, and transparent areas are flattened onto white. Original working files should remain backed up separately.
 
@@ -55,6 +66,16 @@ Repository copies live under [static/images/projects/](../static/images/projects
    ```
 
 A push to `main` invokes the existing GitHub Actions workflow. It builds from repository content and deploys to `gh-pages`; neither the H: drive nor PowerShell is needed by the hosted website. Check the Actions result. The ignored `docs/` output is recreated by the build; never store originals there.
+
+### Importing from the SketchUp working library
+
+Use the Python importer for the SketchUp render library instead of the PowerShell script. It reads an explicit project map, so only real client projects are published:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\import_rekha_projects.py --source 'C:\Users\user\OneDrive - gauravsc\rekha_skechup'
+```
+
+Use `--dry-run` first to list what would be imported without writing any files. The importer needs Pillow, which is now listed in [requirements.txt](../requirements.txt). Project slugs, room labels, descriptions, and ordering live in the `PROJECT_MAP` table at the top of the script; edit them there rather than by hand-editing generated JSON.
 
 ## Repeat imports and file safety
 

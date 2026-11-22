@@ -61,6 +61,7 @@ ashapura.homes/
 ├── static/css/style.css         ← All styles
 ├── static/js/main.js            ← Project galleries, lightbox, nav
 ├── scripts/import-project-images.ps1 ← Import all project folders (Windows)
+├── scripts/import_rekha_projects.py ← Import SketchUp renders as new projects (Projects 7–10)
 ├── scripts/ollama_bridge.py     ← Local Ollama models: file access, staged edits (SVG icons now used throughout site)
 ├── scripts/ollama_bridge.json   ← Bridge settings (default model, file policy)
 │
@@ -137,7 +138,7 @@ For convenience (e.g. VS Code Live Server on the project root), the build also u
 
 ## Adding a New Portfolio Project
 
-Each top-level source folder becomes a clickable project with its own HTML page; its subfolders become room galleries. All 53 supplied images are included, and the empty Project 5 displays a coming-soon card. The source folder `mujeet yelanka` is publicly labeled Project 6.
+Each top-level source folder becomes a clickable project with its own HTML page; its subfolders become room galleries. The empty Project 5 displays a coming-soon card. The source folder `mujeet yelanka` is publicly labeled Project 6.
 
 Add photos to the source folders, then import them from Windows PowerShell:
 
@@ -149,6 +150,20 @@ Add photos to the source folders, then import them from Windows PowerShell:
 The importer creates optimized files under `static/images/projects/` and updates the nested projects in `content/portfolio.json`. Edit titles, descriptions, covers, optional URL `slug`, and `enabled` there. Existing visibility switches, slugs, and captions survive repeat imports. Originals are not modified.
 
 See the [Project Gallery Guide](documentation/PROJECT_GALLERY_GUIDE.md) for the complete format and repeat-import behavior. Stop the preview, run `python build.py`, review changes, and commit/push when ready. The existing GitHub Actions workflow publishes pushes to `main`; no external drive is required on GitHub Pages.
+
+### Importing the SketchUp render library
+
+Projects 7–10 were imported from the external SketchUp render library with a dedicated script:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\import_rekha_projects.py --source 'C:\Users\user\OneDrive - gauravsc\rekha_skechup'
+```
+
+Add `--dry-run` to preview what would be imported without writing files. The script converts each source image to an optimised JPEG (max 1920px, quality 85), copies it into `static/images/projects/<project>/<room>/`, and merges the result into `content/portfolio.json` as a new project. Duplicate images are skipped by content hash, and the source folder is never modified.
+
+Room titles, project slugs, descriptions, and per-project ordering are declared in the `PROJECT_MAP` table at the top of the script. Material swatches and the SketchUp software library are excluded by design — only published design renders are imported.
+
+The script is repeatable: re-running it replaces the matching project entry and keeps every other project untouched.
 
 ---
 
