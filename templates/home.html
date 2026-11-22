@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 {% include "includes/hero.html" %}
 <section class="section home-paths" id="discover">
@@ -28,20 +29,32 @@
     </div>
     <div class="subtle-reveal__grid">
       <div class="subtle-reveal__card">
-        <span class="subtle-reveal__icon">&#127968;</span>
-        <h3>Bungalow Expertise</h3>
-        <p>Complete design solutions for independent bungalows — spatial planning, materials, and integrated landscaping.</p>
-      </div>
-      <div class="subtle-reveal__card">
-        <span class="subtle-reveal__icon">&#127796;</span>
-        <h3>Terrace Design</h3>
-        <p>Transform rooftop terraces into living gardens — pergolas, seating, planters, and weather-proof finishes.</p>
-      </div>
-      <div class="subtle-reveal__card">
-        <span class="subtle-reveal__icon">&#127959;</span>
-        <h3>Building Elevation</h3>
-        <p>Exterior facades that make a statement — cladding, texture paint, stone work, and window framing.</p>
-      </div>
+              <div class="icon-wrapper">
+                <svg class="subtle-reveal__icon" aria-label="Bungalow Expertise">
+                  <use href="{% static 'icons/bungalow.svg' %}#bungalow"/>
+                </svg>
+              </div>
+              <h3>Bungalow Expertise</h3>
+              <p>Complete design solutions for independent bungalows — spatial planning, materials, and integrated landscaping.</p>
+            </div>
+            <div class="subtle-reveal__card">
+              <div class="icon-wrapper">
+                <svg class="subtle-reveal__icon" aria-label="Terrace Design">
+                  <use href="{% static 'icons/terrace.svg' %}#terrace"/>
+                </svg>
+              </div>
+              <h3>Terrace Design</h3>
+              <p>Transform rooftop terraces into living gardens — pergolas, seating, planters, and weather-proof finishes.</p>
+            </div>
+            <div class="subtle-reveal__card">
+              <div class="icon-wrapper">
+                <svg class="subtle-reveal__icon" aria-label="Building Elevation">
+                  <use href="{% static 'icons/elevation.svg' %}#elevation"/>
+                </svg>
+              </div>
+              <h3>Building Elevation</h3>
+              <p>Exterior facades that make a statement — cladding, texture paint, stone work, and window framing.</p>
+            </div>
     </div>
   </div>
 </section>

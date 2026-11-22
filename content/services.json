@@ -1,49 +1,49 @@
 [
   {
     "id":          "bungalow",
-    "icon":        "&#127968;",
+    "icon":        "icons/bungalow.svg",
     "title":       "Bungalow Design",
     "description": "Complete design solutions for independent bungalows — spatial planning, materials selection, finishes, and integrated landscaping.",
     "image":       ""
   },
   {
     "id":          "terrace",
-    "icon":        "&#127796;",
+    "icon":        "icons/terrace.svg",
     "title":       "Terrace Design",
     "description": "Transform rooftop terraces into living gardens — pergolas, seating zones, planters, lighting, and weather-proof finishes.",
     "image":       ""
   },
   {
     "id":          "elevation",
-    "icon":        "&#127959;",
+    "icon":        "icons/elevation.svg",
     "title":       "Building Elevation",
     "description": "Exterior facades that make a statement — cladding, texture paint, stone work, window framing, and compound walls.",
     "image":       ""
   },
   {
     "id":          "pergola",
-    "icon":        "&#9729;",
+    "icon":        "icons/pergola.svg",
     "title":       "Pergola Design",
     "description": "Elegant pergola structures for gardens, terraces, and poolside — timber, metal, and PVC profiles with climbing plants.",
     "image":       ""
   },
   {
     "id":          "living",
-    "icon":        "&#128250;",
+    "icon":        "icons/living.svg",
     "title":       "Living Room",
     "description": "Curated living spaces — furniture layouts, feature walls, false ceilings, lighting design, and bespoke joinery.",
     "image":       "images/portfolio/project-3-living.jpg"
   },
   {
     "id":          "kitchen",
-    "icon":        "&#127859;",
+    "icon":        "icons/kitchen.svg",
     "title":       "Modular Kitchen",
     "description": "Efficient Indian kitchens — modular cabinets, smart storage, premium finishes, and seamless appliance integration.",
     "image":       "images/portfolio/project-2-kitchen.jpg"
   },
   {
     "id":          "bedroom",
-    "icon":        "&#128716;",
+    "icon":        "icons/bedroom.svg",
     "title":       "Bedroom",
     "description": "Serene, functional bedrooms — wardrobes, upholstered headboards, lighting layers, and cohesive colour palettes.",
     "image":       "images/portfolio/project-1-bedroom.jpg"

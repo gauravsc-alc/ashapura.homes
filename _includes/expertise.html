@@ -21,10 +21,13 @@
           />
         </div>
         <div class="expertise-card__body">
-          <div class="expertise-card__icon">{{ service.icon }}</div>
-          <h3>{{ service.title }}</h3>
-          <p>{{ service.description }}</p>
-        </div>
+                  <div class="expertise-card__icon">
+                    {% assign icon_file = service.icon | replace: "_data/services.json root, "icons/" | replace: ".svg", "" %}
+                    {% include "icons/{{ icon_file }}.svg" %}
+                  </div>
+                  <h3>{{ service.title }}</h3>
+                  <p>{{ service.description }}</p>
+                </div>
       </article>
       {% endfor %}
     </div>

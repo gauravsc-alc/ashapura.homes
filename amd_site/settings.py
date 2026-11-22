@@ -11,6 +11,11 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get("DJANGO_DEBUG", "true").lower() != "false"
 ALLOWED_HOSTS = ["*"]  # static site — no external requests in prod
 
+# ── Google Site Verification ────────────────────────────────
+GOOGLE_SITE_VERIFICATION = os.environ.get(
+    "GOOGLE_SITE_VERIFICATION", ""
+)
+
 # ── Build mode: switches STATIC_URL to relative paths ────────
 BUILD_MODE = os.environ.get("BUILD_MODE", "false").lower() == "true"
 STATIC_URL = "static/" if BUILD_MODE else "/static/"
@@ -30,7 +35,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [BASE_DIR / "templates"],
-        "APP_DIRS": False,
+        "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.request",
