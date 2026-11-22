@@ -18,9 +18,9 @@ The studio brand is **Ashapura Homes**. The name lives in one place:
 | `full_name` | `Ashapura Homes` | Nav logo, footer, structured data |
 | `tagline` | `Spaces That Tell Your Story` | Nav logo sub-line |
 
-The navigation logo is a two-part lockup: a square **AH** mark in the accent gradient beside the wordmark. The mark is decorative (`aria-hidden`) and the link carries an accessible label, so screen readers announce the full studio name once.
+The navigation logo is a two-line lockup: the studio name in the accent serif, with the tagline letterspaced underneath. The link carries an accessible label, so screen readers announce the full studio name once.
 
-To change the mark letters, edit `nav__logo-mark` in [templates/includes/nav.html](templates/includes/nav.html). Colours come from the `--accent` / `--accent-dark` tokens at the top of [static/css/style.css](static/css/style.css).
+The wordmark and tagline are driven by `full_name` and `tagline` in [content/config.json](content/config.json). The tagline is rendered uppercase by CSS (`text-transform`), so the stored value stays in sentence case. Colours come from the `--accent` / `--accent-dark` tokens at the top of [static/css/style.css](static/css/style.css).
 
 ---
 
