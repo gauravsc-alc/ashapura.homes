@@ -62,8 +62,10 @@ stats:
     label:  "Design Specialities"
 
 # ── Footer ──────────────────────────────────────────────────
+# Keep `footer.tagline` identical to the site `tagline` above so the header and
+# footer show the same brand lockup on every page.
 footer:
-  tagline: "Designing spaces that reflect who you are."
+  tagline: "Spaces That Tell Your Story"
   copy:    "&copy; 2025 Ashapura Homes. All rights reserved."
 
 # ── Jekyll Build ────────────────────────────────────────────

@@ -16,11 +16,11 @@ The studio brand is **Ashapura Homes**. The name lives in one place:
 | --- | --- | --- |
 | `title` | `Ashapura Homes` | Page titles, Open Graph site name |
 | `full_name` | `Ashapura Homes` | Nav logo, footer, structured data |
-| `tagline` | `Spaces That Tell Your Story` | Nav logo sub-line |
+| `tagline` | `Spaces That Tell Your Story` | Nav logo sub-line, footer sub-line |
 
 The navigation logo is a two-line lockup: the studio name in the accent serif, with the tagline letterspaced underneath. The link carries an accessible label, so screen readers announce the full studio name once.
 
-The wordmark and tagline are driven by `full_name` and `tagline` in [content/config.json](content/config.json). The tagline is rendered uppercase by CSS (`text-transform`), so the stored value stays in sentence case. Colours come from the `--accent` / `--accent-dark` tokens at the top of [static/css/style.css](static/css/style.css).
+The footer repeats the same two-line lockup, so the header and footer carry an identical brand signature on every page. Both read from the single `full_name` and `tagline` values in [content/config.json](content/config.json) — changing the tagline there updates the header and footer together. The tagline is rendered uppercase by CSS (`text-transform`), so the stored value stays in sentence case. Colours come from the `--accent` / `--accent-dark` tokens at the top of [static/css/style.css](static/css/style.css).
 
 ---
 

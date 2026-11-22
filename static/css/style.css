@@ -257,6 +257,8 @@ body[data-animations="true"] .lightbox.open .lightbox__inner { animation: reveal
 .footer__inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; margin-bottom: 32px; flex-wrap: wrap; }
 .footer__logo { font-family: var(--font-head); font-size: 1.4rem; color: #fff; display: block; margin-bottom: 8px; }
 .footer__brand p { font-size: .85rem; color: rgba(255,255,255,.45); }
+/* Footer tagline mirrors the nav lockup: uppercase, letterspaced, small. */
+.footer__brand .footer__tagline { font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-top: 2px; }
 .footer__links { display: flex; gap: 28px; flex-wrap: wrap; }
 .footer__links a { font-size: .85rem; color: rgba(255,255,255,.5); transition: color var(--ease); }
 .footer__links a:hover { color: #fff; }
