@@ -1,51 +1,51 @@
 [
   {
-    "id":          "bungalow",
-    "icon":        "icons/bungalow.svg",
-    "title":       "Bungalow Design",
+    "id": "bungalow",
+    "icon": "icons/bungalow.svg",
+    "title": "Bungalow Design",
     "description": "Complete design solutions for independent bungalows — spatial planning, materials selection, finishes, and integrated landscaping.",
-    "image":       ""
+    "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/final-2-waterfall-side-694672749ec7.jpg"
   },
   {
-    "id":          "terrace",
-    "icon":        "icons/terrace.svg",
-    "title":       "Terrace Design",
+    "id": "terrace",
+    "icon": "icons/terrace.svg",
+    "title": "Terrace Design",
     "description": "Transform rooftop terraces into living gardens — pergolas, seating zones, planters, lighting, and weather-proof finishes.",
-    "image":       ""
+    "image": "images/projects/mujeet-sir/terrace-c777502cdbbf/t1-59305165c2c3.jpg"
   },
   {
-    "id":          "elevation",
-    "icon":        "icons/elevation.svg",
-    "title":       "Building Elevation",
+    "id": "elevation",
+    "icon": "icons/elevation.svg",
+    "title": "Building Elevation",
     "description": "Exterior facades that make a statement — cladding, texture paint, stone work, window framing, and compound walls.",
-    "image":       ""
+    "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/front-view-f-113adfa252ae.jpg"
   },
   {
-    "id":          "pergola",
-    "icon":        "icons/pergola.svg",
-    "title":       "Pergola Design",
+    "id": "pergola",
+    "icon": "icons/pergola.svg",
+    "title": "Pergola Design",
     "description": "Elegant pergola structures for gardens, terraces, and poolside — timber, metal, and PVC profiles with climbing plants.",
-    "image":       ""
+    "image": "images/projects/mujeet-sir/rekha-4a9d69a85589/f-night-view-2a87c2074a6a.jpg"
   },
   {
-    "id":          "living",
-    "icon":        "icons/living.svg",
-    "title":       "Living Room",
+    "id": "living",
+    "icon": "icons/living.svg",
+    "title": "Living Room",
     "description": "Curated living spaces — furniture layouts, feature walls, false ceilings, lighting design, and bespoke joinery.",
-    "image":       "images/portfolio/project-3-living.jpg"
+    "image": "images/portfolio/project-3-living.jpg"
   },
   {
-    "id":          "kitchen",
-    "icon":        "icons/kitchen.svg",
-    "title":       "Modular Kitchen",
+    "id": "kitchen",
+    "icon": "icons/kitchen.svg",
+    "title": "Modular Kitchen",
     "description": "Efficient Indian kitchens — modular cabinets, smart storage, premium finishes, and seamless appliance integration.",
-    "image":       "images/portfolio/project-2-kitchen.jpg"
+    "image": "images/portfolio/project-2-kitchen.jpg"
   },
   {
-    "id":          "bedroom",
-    "icon":        "icons/bedroom.svg",
-    "title":       "Bedroom",
+    "id": "bedroom",
+    "icon": "icons/bedroom.svg",
+    "title": "Bedroom",
     "description": "Serene, functional bedrooms — wardrobes, upholstered headboards, lighting layers, and cohesive colour palettes.",
-    "image":       "images/portfolio/project-1-bedroom.jpg"
+    "image": "images/portfolio/project-1-bedroom.jpg"
   }
 ]

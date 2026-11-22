@@ -10,23 +10,33 @@ All 53 JPG/JPEG/PNG images found under `H:\Rekha_Projects\my projects` were impo
 
 | Source folder | Images | Website behavior |
 | --- | ---: | --- |
-| mujeet yelanka | 6 | Public title Project 6; kids bedroom gallery |
+| mujeet yelanka | 6 | Public title Project 5; kids bedroom gallery |
 | project 1 | 9 | Overview, bedroom 2, kitchen |
 | project 2 | 14 | Kids bedroom, kitchen, master bedroom, bedroom 3, TV unit |
 | project 3 | 11 | Living/dining, kids bedroom, kitchen, master bedroom |
 | project 4 | 13 | Living/dining, kids bedroom, kitchen, master bedroom |
-| project 5 | 0 | Clickable coming-soon card; no invented images |
 
 A second batch of 170 renders from the SketchUp working library was imported with [scripts/import_rekha_projects.py](../scripts/import_rekha_projects.py):
 
 | Source folder | Images | Website behavior |
 | --- | ---: | --- |
-| MUJEET SIR | 136 | Public title Project 7; living hall, terrace, master bedroom, kids bedroom, parent room, study, kitchen, 2D drawings |
-| RASHMI | 23 | Public title Project 8; bedroom and TV unit, living hall |
-| jaspal ji | 4 | Public title Project 9; bedroom study |
-| New folder (3) | 7 | Public title Project 10; kids bedroom study |
+| MUJEET SIR | 136 | Public title Project 6; living hall, terrace, master bedroom, kids bedroom, parent room, study, kitchen, 2D drawings |
+| RASHMI | 23 | Public title Project 7; bedroom and TV unit, living hall |
+| jaspal ji | 4 | Public title Project 8; bedroom study |
+| New folder (3) | 7 | Public title Project 9; kids bedroom study |
 
-Five duplicate files were detected by content hash and skipped during this import. The `wall paper` and `laminates kids room` folders hold material swatches rather than renders, the `ies-lights-pack` folder is a lighting reference library, and the `SketchUp` folder is the installed application — none are published. `Kids_Bedroom_Renders.pdf` is a document, not an image, and is excluded. No exterior images were supplied; the expertise section still labels missing exterior images honestly.
+The empty `project 5` placeholder was removed, so public titles now run **Project 1 – Project 9** with no gaps. Internal project ids are unchanged, so existing image folders and source mappings still resolve.
+
+Five duplicate files were detected by content hash and skipped during this import. The `wall paper` and `laminates kids room` folders hold material swatches rather than renders, the `ies-lights-pack` folder is a lighting reference library, and the `SketchUp` folder is the installed application — none are published. `Kids_Bedroom_Renders.pdf` is a document, not an image, and is excluded.
+
+Every service card on the services page now shows a real project render. The four exterior services that previously showed an icon placeholder were mapped to verified renders from the imported projects:
+
+| Service | Render source |
+| --- | --- |
+| Bungalow Design | Project 6 — boundary wall with waterfall feature and landscaping |
+| Terrace Design | Project 6 — rooftop terrace plan with lawn and planting |
+| Building Elevation | Project 6 — full facade with pergola, boundary and landscaping |
+| Pergola Design | Project 6 — pergola structure over terrace seating at night |
 
 Repository copies live under [static/images/projects/](../static/images/projects/). They are JPEG quality 85 with a maximum dimension of 1920 pixels, preserving aspect ratio without upscaling. This is every supplied image, not a byte-for-byte archive of large original files. EXIF orientation is applied, metadata is not copied, and transparent areas are flattened onto white. Original working files should remain backed up separately.
 

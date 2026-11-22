@@ -138,7 +138,7 @@ For convenience (e.g. VS Code Live Server on the project root), the build also u
 
 ## Adding a New Portfolio Project
 
-Each top-level source folder becomes a clickable project with its own HTML page; its subfolders become room galleries. The empty Project 5 displays a coming-soon card. The source folder `mujeet yelanka` is publicly labeled Project 6.
+Each top-level source folder becomes a clickable project with its own HTML page; its subfolders become room galleries. Public titles currently run **Project 1 – Project 9** with no gaps. The source folder `mujeet yelanka` is publicly labeled Project 5.
 
 Add photos to the source folders, then import them from Windows PowerShell:
 
@@ -164,6 +164,12 @@ Add `--dry-run` to preview what would be imported without writing files. The scr
 Room titles, project slugs, descriptions, and per-project ordering are declared in the `PROJECT_MAP` table at the top of the script. Material swatches and the SketchUp software library are excluded by design — only published design renders are imported.
 
 The script is repeatable: re-running it replaces the matching project entry and keeps every other project untouched.
+
+### Service cards and icons
+
+Each service card in [content/services.json](content/services.json) can carry a project render in its `image` field. When `image` is empty the card falls back to its `icon`, which points at an SVG under `static/icons/`.
+
+Icons are inlined server-side by `load_service_icon()` in [content_loader.py](site_app/content_loader.py), so the markup renders as real SVG rather than printing the file path as visible text. The icon colour comes from `currentColor` inside each SVG, so it follows the surrounding text colour. If an icon file is missing the template degrades quietly instead of showing a broken path.
 
 ---
 
