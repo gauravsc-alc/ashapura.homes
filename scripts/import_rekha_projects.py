@@ -48,9 +48,9 @@ JPEG_QUALITY = 85
 PROJECT_MAP = [
     {
         "id": "mujeet-sir",
-        "slug": "project-7",
-        "order": 7,
-        "title": "Project 7",
+        "slug": "project-6",
+        "order": 6,
+        "title": "Project 6",
         "source_folder": "MUJEET SIR",
         "description": (
             "A complete residence scheme — living hall, terrace, master bedroom, "
@@ -72,9 +72,9 @@ PROJECT_MAP = [
     },
     {
         "id": "rashmi",
-        "slug": "project-8",
-        "order": 8,
-        "title": "Project 8",
+        "slug": "project-7",
+        "order": 7,
+        "title": "Project 7",
         "source_folder": "RASHMI",
         "description": (
             "Bedroom joinery, wardrobe detailing, TV unit and study nook "
@@ -91,9 +91,9 @@ PROJECT_MAP = [
     },
     {
         "id": "jaspal-ji",
-        "slug": "project-9",
-        "order": 9,
-        "title": "Project 9",
+        "slug": "project-8",
+        "order": 8,
+        "title": "Project 8",
         "source_folder": "jaspal ji",
         "description": (
             "Bedroom layout study with wardrobe placement and bed-back "
@@ -106,9 +106,9 @@ PROJECT_MAP = [
     },
     {
         "id": "project-10",
-        "slug": "project-10",
-        "order": 10,
-        "title": "Project 10",
+        "slug": "project-9",
+        "order": 9,
+        "title": "Project 9",
         "source_folder": "New folder (3)",
         "description": (
             "Kids bedroom study in an ocean-themed scheme with a study desk, "
