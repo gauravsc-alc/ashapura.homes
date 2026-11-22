@@ -38,7 +38,7 @@ Django renders templates
 ## Project Structure
 
 ```
-amd.home/
+ashapura.homes/
 │
 ├── content/                     ← ALL YOUR EDITABLE CONTENT
 │   ├── config.json              │  Site title, contact, stats, hero text
@@ -61,7 +61,7 @@ amd.home/
 ├── static/css/style.css         ← All styles
 ├── static/js/main.js            ← Project galleries, lightbox, nav
 ├── scripts/import-project-images.ps1 ← Import all project folders (Windows)
-├── scripts/ollama_bridge.py     ← Local Ollama models: file access, staged edits
+├── scripts/ollama_bridge.py     ← Local Ollama models: file access, staged edits (SVG icons now used throughout site)
 ├── scripts/ollama_bridge.json   ← Bridge settings (default model, file policy)
 │
 ├── build.py                     ← Generates docs/ from Django
