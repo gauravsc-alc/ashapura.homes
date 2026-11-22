@@ -12,8 +12,10 @@ description: >
   pergolas, living rooms, kitchens, and bedrooms — across India.
 
 # ── GitHub Pages ────────────────────────────────────────────
-baseurl: "/amd.home"
-url:     "https://gauravsc-alc.github.io"
+# NOTE: legacy Jekyll config. The active site is the Django build; its domain
+# lives in content/config.json (site_url) and .github/workflows/deploy.yml (cname).
+baseurl: "/ashapura.homes"
+url:     "https://www.ashapura.homes"
 
 # ── Hero Section ────────────────────────────────────────────
 hero:
@@ -26,9 +28,9 @@ hero:
 
 # ── Contact Details ─────────────────────────────────────────
 contact:
-  phone:    "+91 99999 99999"
-  email:    "hello@amdhomeinteriors.com"
-  location: "Pune, Maharashtra"
+  phone:    "+91 9035 116 542"
+  email:    "info@ashapura.homes"
+  location: "Bangalore, Karnataka"
   form_note: "We reply within 24 hours."
 
 # ── Social Links ────────────────────────────────────────────

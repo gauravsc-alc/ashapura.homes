@@ -62,7 +62,7 @@ This is an optional starter, not a deployed page. A-Frame is pinned rather than 
 The existing build copies everything under `static/`, including these files. After publishing, the tour URL will be:
 
 ```text
-https://YOUR_USERNAME.github.io/amd.home/static/tours/living-room/index.html
+https://www.ashapura.homes/static/tours/living-room/index.html
 ```
 
 Use your actual account, repository name, and custom domain if applicable. Set that full URL in `virtual_tour.url`. For local testing, serve the repository with `python -m http.server 8080 --bind 127.0.0.1` and visit `http://127.0.0.1:8080/static/tours/living-room/index.html`. Do not test WebXR by double-clicking a file.

@@ -77,11 +77,11 @@ Suggested gateway-owned environment settings (these are proposed settings for yo
 ```text
 CHAT_OLLAMA_URL=http://127.0.0.1:11434
 CHAT_MODEL=YOUR_INSTALLED_MODEL_NAME
-CHAT_ALLOWED_ORIGIN=https://gauravsc-alc.github.io
+CHAT_ALLOWED_ORIGIN=https://www.ashapura.homes
 CHAT_REQUEST_TIMEOUT_SECONDS=60
 ```
 
-Use the site's actual origin. An origin contains scheme and host, not the `/amd.home/` repository path. CORS cannot distinguish two repositories served under the same GitHub Pages origin; a dedicated custom domain provides a narrower origin boundary.
+Use the site's actual origin. An origin contains scheme and host, not the `/ashapura.homes/` repository path. CORS cannot distinguish two repositories served under the same GitHub Pages origin; a dedicated custom domain provides a narrower origin boundary.
 
 ## 3. Publish the gateway safely
 

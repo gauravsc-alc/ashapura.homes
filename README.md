@@ -10,9 +10,9 @@ The site now has separate Home, Services, Projects, Our Process, About, and Cont
 
 ## Live Website
 
-**https://www.amd.homes/**
+**https://www.ashapura.homes/**
 
-> The repository is named `amd.home`; the public domain is `www.amd.homes`. If a push changes the domain, follow the [domain correction guide](documentation/DOMAIN_CORRECTION_GUIDE.md). Keep the Pages custom domain set to `www.amd.homes`, not blank.
+> The repository is named `ashapura.homes`; the public domain is `www.ashapura.homes`. If a push changes the domain, follow the [domain correction guide](documentation/DOMAIN_CORRECTION_GUIDE.md). Keep the Pages custom domain set to `www.ashapura.homes`, not blank.
 
 ---
 
@@ -159,13 +159,14 @@ Open `content/config.json` and update any value:
 ```json
 {
   "title": "Ashapura Maison Design",
+  "site_url": "https://www.ashapura.homes",
   "contact": {
-    "phone": "+91 98765 43210",
-    "email": "your@email.com",
-    "location": "Pune, Maharashtra"
+    "phone": "+91 9035 116 542",
+    "email": "info@ashapura.homes",
+    "location": "Bangalore, Karnataka"
   },
   "stats": [
-    { "number": "75+", "label": "Projects Completed" }
+    { "number": "15+", "label": "Projects Completed" }
   ]
 }
 ```
@@ -229,7 +230,7 @@ To receive real emails:
 #### Step 1 — Create a GitHub repository
 
 1. Go to **https://github.com/new**
-2. Name it `amd.home` (or any name you prefer)
+2. Name it `ashapura.homes` (or any name you prefer)
 3. Set it to **Public**
 4. Do **not** initialise with a README (you already have one)
 5. Click **Create repository**
@@ -243,7 +244,7 @@ git init                          # only if not already a git repo
 git add .
 git commit -m "Initial commit — Ashapura Maison Design website"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/amd.home.git
+git remote add origin https://github.com/YOUR_USERNAME/ashapura.homes.git
 git push -u origin main
 ```
 
@@ -269,7 +270,7 @@ GitHub Actions automatically runs when you push to `main`. To watch progress:
 #### Step 5 — Open your live site
 
 ```
-https://YOUR_USERNAME.github.io/amd.home/
+https://www.ashapura.homes/
 ```
 
 ---

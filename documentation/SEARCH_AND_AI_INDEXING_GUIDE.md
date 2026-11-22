@@ -18,10 +18,10 @@ This improves the site's technical foundations; it is not proof that any crawler
 Edit `site_url` in [content/config.json](../content/config.json):
 
 ```json
-"site_url": "https://gauravsc-alc.github.io/amd.home"
+"site_url": "https://www.ashapura.homes"
 ```
 
-This is the configured GitHub Pages target, not a confirmation that this revision is live. If deploying to your custom domain, use its actual HTTPS site root instead. Do not use localhost, the source drive, `/docs`, or an individual HTML filename. Keep the GitHub Pages domain setting, DNS, canonical URL, sitemap URL, and social-profile website links consistent.
+This is the configured public site root, not a confirmation that this revision is live. Use the site's actual HTTPS site root. Do not use localhost, the source drive, `/docs`, or an individual HTML filename. Keep the GitHub Pages domain setting, DNS, canonical URL, sitemap URL, and social-profile website links consistent.
 
 Run the existing workflow:
 
@@ -32,7 +32,7 @@ Run the existing workflow:
 Preview locally, review changes, and commit/push when ready. The workflow publishes `docs/`. With the configured URL, the sitemap should then be accessible at:
 
 ```text
-https://gauravsc-alc.github.io/amd.home/sitemap.xml
+https://www.ashapura.homes/sitemap.xml
 ```
 
 Open it on the **public** site and check that all URLs point to the final host. Search engines cannot crawl your local preview. The sitemap intentionally does not invent `lastmod` timestamps for unchanged pages.
@@ -40,7 +40,7 @@ Open it on the **public** site and check that all URLs point to the final host. 
 ## 3. Verify with Google Search Console
 
 1. Sign in to [Google Search Console](https://search.google.com/search-console) with a studio-controlled account.
-2. For the GitHub project URL, add a **URL-prefix** property for the complete public prefix, including `/amd.home/`. For a custom domain you own, DNS verification is another option; it requires access to that domain's DNS.
+2. Add a **Domain** property for `ashapura.homes`. DNS verification is the recommended method and requires access to that domain's DNS. A **URL-prefix** property for `https://www.ashapura.homes/` is the fallback.
 3. If using HTML-tag verification, select that method and copy only the value of its `content` attribute.
 4. Put that value in `seo.google_site_verification` inside the existing [configuration](../content/config.json). Do not paste the whole HTML tag:
 
@@ -72,11 +72,11 @@ Google says its normal search fundamentals apply to AI Overviews and AI Mode; no
 
 OpenAI distinguishes **OAI-SearchBot**, used for search discovery, from **GPTBot**, used for content that may support model training. Their permissions are independent. Allowing one does not require allowing the other. See the [official OpenAI crawler documentation](https://developers.openai.com/api/docs/bots). No crawler policy has been changed by this update.
 
-### Important GitHub project-site limitation
+### robots.txt placement
 
-Crawler rules belong at the **host root**, for example `https://gauravsc-alc.github.io/robots.txt`, not `/amd.home/robots.txt`. A file inside this project site's subdirectory would not control host-wide crawling. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
+Crawler rules belong at the **host root**, for example `https://www.ashapura.homes/robots.txt`. See [Google's robots.txt location rules](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt).
 
-If you control the host root, review its existing rules with the owner before changing anything. On a custom domain, ensure any intended policy is actually served at `/robots.txt`. This build does not generate that file; putting a file only in the repository root will not automatically copy it into `docs/`. Host-root deployment needs an explicit build/deployment change.
+Because the site is served from its own custom domain, the repository root **is** the host root. The build copies [robots.txt](../robots.txt) into `docs/robots.txt`, so the published `gh-pages` branch serves it at `/robots.txt` automatically. Verify it after deployment by opening `https://www.ashapura.homes/robots.txt` in a private window.
 
 For illustration only, a host owner who chooses search access but opts out of GPTBot training could use the following rules, merged carefully with their existing policy:
 
@@ -87,7 +87,7 @@ Allow: /
 User-agent: GPTBot
 Disallow: /
 
-Sitemap: https://gauravsc-alc.github.io/amd.home/sitemap.xml
+Sitemap: https://www.ashapura.homes/sitemap.xml
 ```
 
 Do not install this example without reviewing the scope and your preferences. These are voluntary crawler directives, not access control. Removing confidential images from public hosting is necessary; hiding a project or listing it in robots.txt does not secure its files. Other providers have their own crawler policies; do not assume these OpenAI-specific names control them.

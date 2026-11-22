@@ -120,6 +120,16 @@ def copy_static():
     shutil.copytree(src, dst, dirs_exist_ok=True)
 
 
+def copy_robots():
+    """Publish robots.txt at the site root so crawler rules apply host-wide."""
+    src = Path(settings.BASE_DIR) / "robots.txt"
+    if not src.exists():
+        print("  robots.txt not found — skipping")
+        return
+    shutil.copyfile(src, DOCS / "robots.txt")
+    print("  Copying robots.txt  ->  docs/robots.txt")
+
+
 def fix_static_paths():
     """Replace absolute /static/ with relative static/ so the site works at any subpath."""
     for html_file in DOCS.glob("**/*.html"):
@@ -151,6 +161,7 @@ def main():
     clean()
     build_pages(pages)
     copy_static()
+    copy_robots()
     fix_static_paths()
     mirror_root_pages(pages)
     print("\nBuild complete!  Output: docs/\n")
