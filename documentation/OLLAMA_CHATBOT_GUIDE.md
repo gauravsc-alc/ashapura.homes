@@ -67,7 +67,7 @@ The gateway must:
 
 1. Accept POST only, validate JSON, require a nonempty string, and cap message length (for example 2,000 characters) and request body size. Reject client-supplied model names, system prompts, arbitrary URLs, or inference options.
 2. Select a model through a server environment variable and call the fixed local Ollama address. Do not construct a destination URL from user input.
-3. Supply a server-controlled system prompt describing Ashapura Maison Design, verified services and contact information, and instructions not to invent prices, bookings, completion dates, or business policies. Treat chat content as untrusted input; do not enable tools, filesystem access, or command execution.
+3. Supply a server-controlled system prompt describing Ashapura Homes, verified services and contact information, and instructions not to invent prices, bookings, completion dates, or business policies. Treat chat content as untrusted input; do not enable tools, filesystem access, or command execution.
 4. Set bounded generation output and concurrency. Set an upstream timeout appropriate to your machine; test a cold model as well as a loaded model. Return safe error responses rather than raw upstream errors or stack traces.
 5. Return only the assistant reply. Limit requests per session/IP and globally, and limit maximum input/output size. Return HTTP 429 for rate limits, 400 for bad input, and 503 for unavailable inference.
 6. If history is added later, cap its length and token budget. Keep conversations isolated by authenticated user or an unguessable server-managed session identifier. Do not accept client-supplied `system` or `tool` messages.

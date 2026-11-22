@@ -41,7 +41,7 @@ A minimal starting point for the tour HTML is:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Living room tour | Ashapura Maison Design</title>
+  <title>Living room tour | Ashapura Homes</title>
   <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
 </head>
 <body>

@@ -1,10 +1,26 @@
-# Ashapura Maison Design — Portfolio Website
+# Ashapura Homes — Portfolio Website
 
 A professional **interior design portfolio** built with **Django + Python**, deployed as a **static site** on GitHub Pages.
 
 All content is managed through **JSON** and **Markdown** files — no HTML editing needed to add projects, update contact details, or change text.
 
 The site now has separate Home, Services, Projects, Our Process, About, and Contact pages. Every project opens its own HTML gallery. The homepage plays four portfolio-related concepts in sequence: architecture, living room, kitchen, and bedroom, with pause/resume, replay, scene selection, and reduced-motion support.
+
+---
+
+## Branding
+
+The studio brand is **Ashapura Homes**. The name lives in one place:
+
+| Field | Value | Used by |
+| --- | --- | --- |
+| `title` | `Ashapura Homes` | Page titles, Open Graph site name |
+| `full_name` | `Ashapura Homes` | Nav logo, footer, structured data |
+| `tagline` | `Spaces That Tell Your Story` | Nav logo sub-line |
+
+The navigation logo is a two-part lockup: a square **AH** mark in the accent gradient beside the wordmark. The mark is decorative (`aria-hidden`) and the link carries an accessible label, so screen readers announce the full studio name once.
+
+To change the mark letters, edit `nav__logo-mark` in [templates/includes/nav.html](templates/includes/nav.html). Colours come from the `--accent` / `--accent-dark` tokens at the top of [static/css/style.css](static/css/style.css).
 
 ---
 
@@ -179,7 +195,7 @@ Open `content/config.json` and update any value:
 
 ```json
 {
-  "title": "Ashapura Maison Design",
+  "title": "Ashapura Homes",
   "site_url": "https://www.ashapura.homes",
   "contact": {
     "phone": "+91 9035 116 542",
@@ -199,7 +215,7 @@ Open `content/config.json` and update any value:
 Open `content/pages/home.md` — it's a standard Markdown file:
 
 ```markdown
-## About Ashapura Maison Design
+## About Ashapura Homes
 
 We specialise in bungalow design, terrace spaces ...
 
@@ -263,7 +279,7 @@ Open a terminal in the project folder and run:
 ```bash
 git init                          # only if not already a git repo
 git add .
-git commit -m "Initial commit — Ashapura Maison Design website"
+git commit -m "Initial commit — Ashapura Homes website"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/ashapura.homes.git
 git push -u origin main

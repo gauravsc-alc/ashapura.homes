@@ -1,6 +1,6 @@
 # AI agent setup and project handbook
 
-This is the shared onboarding reference for Claude Code and OpenAI Codex working on **Ashapura Maison Design**. It teaches the repository workflow; it does not fine-tune models, install a chatbot, grant account access, or upload photographs to a training service.
+This is the shared onboarding reference for Claude Code and OpenAI Codex working on **Ashapura Homes**. It teaches the repository workflow; it does not fine-tune models, install a chatbot, grant account access, or upload photographs to a training service.
 
 ## 1. Connect the instructions to your agent
 

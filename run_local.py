@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-run_local.py — Start the Ashapura Maison Design development server.
+run_local.py — Start the Ashapura Homes development server.
 
 Creates a virtual environment (if one doesn't exists), installs dependencies,
 then launches Django's built-in server with live template reloading.
@@ -67,7 +67,7 @@ def main():
     os.chdir(ROOT)
 
     print("=" * 52)
-    print("  Ashapura Maison Design — Development Server")
+    print("  Ashapura Homes — Development Server")
     print("  URL: http://127.0.0.1:8000/")
     print("  Press Ctrl+C to stop")
     print("=" * 52)

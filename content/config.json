@@ -1,72 +1,76 @@
 {
-  "title":       "Ashapura Maison Design",
-  "site_url":    "https://www.ashapura.homes",
+  "title": "Ashapura Homes",
+  "site_url": "https://www.ashapura.homes",
   "seo": {
     "google_site_verification": "",
     "bing_site_verification": "",
     "pinterest_domain_verify": ""
   },
-  "full_name":   "Ashapura Maison Design",
-  "tagline":     "Spaces That Tell Your Story",
+  "full_name": "Ashapura Homes",
+  "tagline": "Spaces That Tell Your Story",
   "description": "Expert interior design for bungalows, terraces, building elevations, pergolas, living rooms, kitchens, and bedrooms across India.",
-
   "hero": {
-    "eyebrow":       "Interior Design & Architecture",
-    "title_line1":   "Spaces That Tell",
-    "title_line2":   "Your Story",
-    "subtitle":      "Bungalows · Terraces · Elevations · Pergolas · Interiors",
-    "cta_primary":   "View Portfolio",
+    "eyebrow": "Interior Design & Architecture",
+    "title_line1": "Spaces That Tell",
+    "title_line2": "Your Story",
+    "subtitle": "Bungalows · Terraces · Elevations · Pergolas · Interiors",
+    "cta_primary": "View Portfolio",
     "cta_secondary": "Get a Quote",
-    "image":         "images/portfolio/project-3-living.jpg"
+    "image": "images/portfolio/project-3-living.jpg"
   },
-
   "portfolio": {
     "enabled": true
   },
-
   "animations": {
     "enabled": true
   },
-
   "virtual_tour": {
     "enabled": false,
     "url": "",
     "label": "Explore in 360 degrees"
   },
-
   "contact": {
-    "phone":     "+91 9035 116 542",
-    "email":     "info@ashapura.homes",
-    "location":  "Bangalore, Karnataka",
+    "phone": "+91 9035 116 542",
+    "email": "info@ashapura.homes",
+    "location": "Bangalore, Karnataka",
     "form_note": "Prepare an email enquiry. Review and send it in your email app."
   },
-
   "social": {
     "instagram": "#",
-    "whatsapp":  "#",
-    "facebook":  "#",
-    "linkedin":  "#",
-    "twitter":   "#",
+    "whatsapp": "#",
+    "facebook": "#",
+    "linkedin": "#",
+    "twitter": "#",
     "pinterest": "#",
-    "youtube":   "#",
-    "telegram":  "#",
-    "tiktok":    "#",
-    "snapchat":  "#",
-    "reddit":    "#",
-    "medium":    "#",
-    "github":    "#",
-    "behance":   "#"
+    "youtube": "#",
+    "telegram": "#",
+    "tiktok": "#",
+    "snapchat": "#",
+    "reddit": "#",
+    "medium": "#",
+    "github": "#",
+    "behance": "#"
   },
-
   "stats": [
-    { "number": "15+",  "label": "Projects Completed" },
-    { "number": "5+",  "label": "Years Experience"   },
-    { "number": "100%", "label": "Client Satisfaction" },
-    { "number": "7A",    "label": "Design Specialities" }
+    {
+      "number": "15+",
+      "label": "Projects Completed"
+    },
+    {
+      "number": "5+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "100%",
+      "label": "Client Satisfaction"
+    },
+    {
+      "number": "7A",
+      "label": "Design Specialities"
+    }
   ],
-
   "footer": {
     "tagline": "Designing spaces that reflect who you are.",
-    "copy":    "2025 Ashapura Maison Design. All rights reserved."
+    "copy": "2026 Ashapura Homes. All rights reserved."
   }
 }

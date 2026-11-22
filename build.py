@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build.py — Static site generator for Ashapura Maison Design.
+build.py — Static site generator for Ashapura Homes.
 
 Uses Django's test client to render pages to HTML, then copies
 static files. Output goes to docs/ for GitHub Pages.

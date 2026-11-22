@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
-   Ashapura Maison Design — main.js
+   Ashapura Homes — main.js
    Portfolio filter · Lightbox · Nav scroll · Mobile menu
 ───────────────────────────────────────────────────────────── */
 

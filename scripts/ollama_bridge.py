@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local Ollama bridge for the Ashapura Maison Design website.
+"""Local Ollama bridge for the Ashapura Homes website.
 
 Gives every locally installed Ollama model sandboxed, reviewable access to this
 repository. Models read files and propose edits through tools (or SEARCH/REPLACE
@@ -1530,7 +1530,7 @@ class Tools:
 # --------------------------------------------------------------------------- prompts
 
 COMMON_RULES = """\
-You are a careful web developer editing the Ashapura Maison Design website through a local file bridge on the
+You are a careful web developer editing the Ashapura Homes website through a local file bridge on the
 owner's PC. Paths are relative to the repository root and use forward slashes (for example content/config.json).
 
 How the bridge works:

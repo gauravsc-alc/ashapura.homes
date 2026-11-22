@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-start_project.py — Bootstrap the Ashapura Maison Design project.
+start_project.py — Bootstrap the Ashapura Homes project.
 
 This script:
   1. Creates a virtual environment (if one doesn't exist)

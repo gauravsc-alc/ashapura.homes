@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate SVG placeholder images for Ashapura Maison Design portfolio website.
+Generate SVG placeholder images for Ashapura Homes portfolio website.
 
 Run once:
     python generate_placeholders.py

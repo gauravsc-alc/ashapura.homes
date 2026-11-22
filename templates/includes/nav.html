@@ -1,8 +1,11 @@
 <nav class="nav" id="nav" aria-label="Main navigation">
   <div class="nav__inner">
     <a href="index.html" class="nav__logo" aria-label="{{ config.full_name }} home">
-      <span class="nav__logo-main">AMD</span>
-      <span class="nav__logo-sub">{{ config.full_name }}</span>
+      <span class="nav__logo-mark" aria-hidden="true">AH</span>
+      <span class="nav__logo-text">
+        <span class="nav__logo-main">{{ config.full_name }}</span>
+        <span class="nav__logo-sub">{{ config.tagline }}</span>
+      </span>
     </a>
     <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">
       <span></span><span></span><span></span>

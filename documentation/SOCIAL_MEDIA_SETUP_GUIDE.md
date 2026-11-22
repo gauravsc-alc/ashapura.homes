@@ -8,7 +8,7 @@ Before opening accounts, collect an approved studio name, logo, short biography,
 
 Suggested bio, to adapt to your actual services:
 
-> Ashapura Maison Design — interiors and architecture shaped around everyday Indian life. Explore our design concepts, room galleries, and approach to creating a home.
+> Ashapura Homes — interiors and architecture shaped around everyday Indian life. Explore our design concepts, room galleries, and approach to creating a home.
 
 Use a business-controlled recovery email, strong unique passwords, and multi-factor authentication. Give collaborators platform roles instead of sharing the owner's password. Keep recovery codes in a password manager, never in this repository or frontend JavaScript.
 
@@ -87,7 +87,7 @@ Only run the commit/push commands after reviewing the staged changes. Wait for t
 
 Example original caption for the supplied content:
 
-> Inside Project 1: a collection of living-space, bedroom, and kitchen design renders. Explore all nine views on our website, including the breakfast slab and utility area. Planning your own space? Start a conversation with Ashapura Maison Design.
+> Inside Project 1: a collection of living-space, bedroom, and kitchen design renders. Explore all nine views on our website, including the breakfast slab and utility area. Planning your own space? Start a conversation with Ashapura Homes.
 
 Link it to the real public `gallery-project-1.html` page. Do not claim a location, client name, completed build, budget, or material specification unless you have verified permission and facts. The animated home illustration is conceptual artwork, not evidence of a completed client project.
 
