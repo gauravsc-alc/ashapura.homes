@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" role="img" aria-label="Living Room">
-  <path d="M6 2h12v2H6V2zm0 7h4v3H6V9zm0 7h12v2H6v-2zm-3-4v2h3L9 14l-3 2v-3H5v-2h3zm7.5 2.5l2.5 3.01L19 13l-3.01-2h-5l1.51-2H15z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" role="img" aria-label="Living Room" fill="currentColor">
+  <g id="living" fill="currentColor">
+    <path fill-rule="evenodd" d="M1.60 10.30 L2.73 11.81 L3.11 14.84 L1.98 16.35 L22.40 16.35 L21.64 15.59 L19.37 15.21 L19.75 11.81 L20.89 10.30 L20.51 9.54 L19.00 9.54 L18.24 7.65 L11.43 8.41 L11.05 7.65 L3.87 8.03 L3.87 9.16 L2.73 9.16 Z M3.49 12.57 L6.14 11.81 L18.62 11.81 L19.00 13.70 L3.87 14.08 Z M17.86 8.79 L17.11 10.30 L10.30 10.30 L5.00 9.54 L5.38 8.41 L11.05 9.16 L15.21 8.03 Z"/>
+  </g>
 </svg>

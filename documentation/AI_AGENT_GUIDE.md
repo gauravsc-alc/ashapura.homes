@@ -42,12 +42,20 @@ The models in this PC's Ollama already have controlled repository tools through 
 | Concept scene order and house | [house-build.html](../templates/includes/house-build.html) | Scene buttons correspond to panels in order |
 | Living, kitchen, bedroom drawings | [concept-room.html](../templates/includes/concept-room.html) | Unique SVG IDs, local shared definitions |
 | Motion and UI | [main.js](../static/js/main.js), [style.css](../static/css/style.css) | Motion-off and no-JS fallbacks |
+| Browser tab title and favicon | [pages.py](../site_app/pages.py), [base.html](../templates/base.html), [favicon.svg](../static/favicon.svg) | Home tab reads the brand name alone; icon assets must stay in `static/` |
 | Image ingestion | [import-project-images.ps1](../scripts/import-project-images.ps1) | Full source root, never modify originals |
 | Routing, published pages, SEO | [pages.py](../site_app/pages.py), [views.py](../site_app/views.py), [urls.py](../amd_site/urls.py) | Hidden routes and sitemap agree |
 | Export and deployment | [build.py](../build.py), [deploy.yml](../.github/workflows/deploy.yml) | `docs/` is generated; GitHub Pages is static |
 | Local Ollama model access | [ollama_bridge.py](../scripts/ollama_bridge.py), [ollama_bridge.json](../scripts/ollama_bridge.json) | Loopback only; edits are staged, validated and reversible |
 
 Legacy Jekyll folders are not the active Django pipeline. Do not patch them to solve a problem visible in the generated site.
+
+### Browser tab, favicon, and service icons
+
+- The document title is built by `_page_title()` in [pages.py](../site_app/pages.py). The home page tab reads `Ashapura Homes` on its own; every other page reads `<Page name> | Ashapura Homes`. Changing `content/page_metadata.json` changes the page-name half of non-home titles only.
+- The favicon set lives in `static/`: `favicon.svg` plus PNG fallbacks and `apple-touch-icon.png`. `templates/base.html` links all of them. `static/site.webmanifest` points at the 192px and 512px PNGs, so keep those two files in place when editing.
+- Service icons live in `static/icons/` as 24×24 `currentColor` SVGs. Each one carries an `id` matching its filename so `<use href="...#id">` resolves on the home page. Keep that `id` in sync with the filename.
+- `.icon-wrapper` in `style.css` sizes and colours the icon badge. The SVG itself is sized by CSS, not by the `width`/`height` attributes on the `<svg>` element.
 
 ## 4. Portfolio/image maintenance recipe
 

@@ -17,6 +17,35 @@
   --text:        #1C1C1C;
   --muted:       #6B6B6B;
   --border:      #E8E0D8;
+  /* --- brand ramp (from accent #D84A14) ---
+       Contrast on white: 900=9.45:1 800=7.77 700=6.41 600=5.31 500=4.28(decor)
+       Contrast on bg-warm: 700=5.90 600=4.82 500=4.01(decor) */
+  --brand-900: #7D2B0C;
+  --brand-800: #93320E;
+  --brand-700: #A83A10;
+  --brand-600: #BE4112;
+  --brand-500: #D84A14;    /* decorative fill only */
+  --brand-400: #DE673A;
+  --brand-300: #E58864;
+  --brand-200: #EEAF98;
+  --brand-100: #F6D7CB;
+  --brand-050: #FBEDE8;
+
+  /* --- ink / neutral ramp --- */
+  --ink-900: #1C1C1C;
+  --ink-800: #2E2E2E;
+  --ink-700: #454545;
+  --ink-600: #5E5E5E;
+  --ink-500: #6B6B6B;
+  --ink-400: #8C8C8C;
+  --ink-300: #B4B4B4;
+  --ink-200: #D6D6D6;
+  --ink-100: #E8E0D8;
+  --ink-050: #F3EFEA;
+  --paper: #FFFFFF;
+  --warm-50: #F9F5F0;
+  --warm-100: #F5E8E2;
+  --warm-200: #EAD9CF;
   --shadow-sm:   0 2px 8px rgba(0,0,0,.08);
   --shadow-md:   0 6px 24px rgba(0,0,0,.12);
   --radius:      6px;
@@ -39,7 +68,7 @@ section[id] { scroll-margin-top: 88px; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 .skip-link { position: fixed; top: -80px; left: 20px; z-index: 600; padding: 12px 20px; background: var(--white); color: var(--text); border-radius: var(--radius); }
 .skip-link:focus { top: 12px; }
-body[data-animations="true"] .is-revealed { animation: revealIn .65s cubic-bezier(.2,.7,.2,1) var(--reveal-delay, 0ms) backwards; }
+body[data-animations="true"] .is-revealed { animation: revealIn .65s cubic-bezier(.2,.7,.2,1) var(--reveal-delay, 0ms) both; }
 @keyframes revealIn { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
 .reading-progress { height: 3px; background: linear-gradient(90deg, var(--accent), #edb174); transform: scaleX(0); transform-origin: left; }
 .back-to-top { position: fixed; right: 24px; bottom: 24px; z-index: 90; display: grid; place-items: center; width: 48px; height: 48px; background: var(--accent); color: white; border-radius: 50%; box-shadow: var(--shadow-md); font-size: 1.4rem; transition: background var(--ease), transform var(--ease); }
@@ -53,7 +82,7 @@ body[data-animations="true"] .is-revealed { animation: revealIn .65s cubic-bezie
 .section-header { text-align: center; max-width: 640px; margin: 0 auto 56px; }
 .section-eyebrow {
   font-size: .78rem; font-weight: 600; letter-spacing: .18em;
-  text-transform: uppercase; color: var(--accent); margin-bottom: 12px;
+  text-transform: uppercase; color: var(--brand-700); margin-bottom: 12px;
 }
 .section-title {
   font-family: var(--font-head);
@@ -237,8 +266,8 @@ body[data-animations="true"] .lightbox.open .lightbox__inner { animation: reveal
 .contact__details { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
 .contact__details li { display: flex; align-items: center; gap: 12px; font-size: .95rem; }
 .contact__icon { font-size: 1.2rem; }
-.contact__details a { color: var(--accent); transition: color var(--ease); }
-.contact__details a:hover { color: var(--accent-dark); }
+.contact__details a { color: var(--brand-700); transition: color var(--ease); }
+.contact__details a:hover { color: var(--brand-600); }
 .contact__social { display: flex; gap: 10px; flex-wrap: wrap; }
 .social-btn { width: 42px; height: 42px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; border: 1.5px solid var(--border); color: var(--text); font-size: 1rem; transition: color var(--ease), border-color var(--ease), background var(--ease), transform var(--ease), box-shadow var(--ease); }
 .social-btn:hover { border-color: var(--accent); background: var(--white); color: var(--accent); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
@@ -372,6 +401,22 @@ body[data-animations="true"] .concept-panel.is-paused .blueprint-trace path,
 body[data-animations="true"] .concept-panel.is-paused::after { animation-play-state: paused; }
 
 /* ── Subtle reveal animations ───────────────────────────────── */
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: var(--accent-lt);
+  color: var(--brand-700);
+}
+.icon-wrapper svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
 .subtle-reveal__card {
   opacity: 0;
   transform: translateY(16px);
@@ -380,12 +425,21 @@ body[data-animations="true"] .concept-panel.is-paused::after { animation-play-st
 }
 
 body[data-animations="true"] .subtle-reveal__card {
-  animation: revealIn .65s cubic-bezier(.2,.7,.2,1) var(--reveal-delay, 0ms) backwards both;
+  animation: revealIn .65s cubic-bezier(.2,.7,.2,1) var(--reveal-delay, 0ms) both;
 }
 
 @keyframes revealIn {
   from { opacity: 0; transform: translateY(22px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Elements that start hidden for the reveal animation must be shown again
+   when that animation is switched off, otherwise the content never appears.
+   These rules come after the hidden state so they win on source order. */
+body[data-animations="false"] .subtle-reveal__card { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .subtle-reveal__card { opacity: 1; transform: none; }
 }
 
 /* Staggered delay for grid children */

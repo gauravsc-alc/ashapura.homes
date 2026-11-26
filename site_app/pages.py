@@ -47,6 +47,19 @@ def public_site_url(config):
     return base_url
 
 
+def _page_title(page_key, title, site_name):
+    """Build the document title shown in the browser tab.
+
+    The home page is the brand itself, so its tab reads as the site name
+    alone. Every other page keeps the page name in front of the brand.
+    """
+    if page_key == 'home':
+        return site_name
+    if not title or title == site_name:
+        return site_name
+    return f'{title} | {site_name}'
+
+
 def add_page_metadata(context, page_key, project=None):
     config = context['config']
     page = dict(PAGES[page_key], **context['page_content'].get(page_key, {}))
@@ -75,7 +88,7 @@ def add_page_metadata(context, page_key, project=None):
         current_page=page_key,
         page=page,
         seo={
-            'title': f'{title} | {config["title"]}',
+            'title': _page_title(page_key, title, config['title']),
             'description': description,
             'canonical': canonical,
             'image': image_url,
